@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 16 2018 г., 01:33
+-- Время создания: Ноя 21 2018 г., 23:50
 -- Версия сервера: 5.6.37
 -- Версия PHP: 7.1.7
 
@@ -34,8 +34,18 @@ CREATE TABLE `category` (
   `id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL,
   `description` text NOT NULL,
+  `parent_id` int(10) NOT NULL DEFAULT '0',
   `img` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `category`
+--
+
+INSERT INTO `category` (`id`, `title`, `description`, `parent_id`, `img`) VALUES
+(1, 'Монтаж труб', 'Проводим полный монтаж труб', 0, ''),
+(2, 'Разводка труб', 'Полная разводка', 0, ''),
+(3, 'Отопление', 'Описание про отопление', 1, '');
 
 -- --------------------------------------------------------
 
@@ -169,7 +179,7 @@ ALTER TABLE `testimonials`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `constants`
 --

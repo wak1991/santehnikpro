@@ -370,3 +370,17 @@
 =====================
 [2018-11-15 22:21:46] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santehnikpro.category' doesn't exist | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
 =====================
+[2018-11-21 22:51:28] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santehnikpro.categor1y' doesn't exist | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2018-11-21 23:31:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-21 23:31:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-21 23:37:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-21 23:37:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-21 23:40:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2018-11-21 23:40:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
