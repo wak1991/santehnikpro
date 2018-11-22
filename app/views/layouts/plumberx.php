@@ -77,77 +77,20 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <ul class="mainmenu pull-right">
-                    <li class="dropdown current">
-                        <a href="index.html" class="hvr-overline-from-left">Home</a>
-                        <ul class="submenu">
-                            <li><a href="index-v2.html">One Page Version</a></li>
-                            <li class="dropdown">
-                                <a href="header-v1.html">Header Variations</a>
-                                <ul class="submenu">
-                                    <li><a href="header-v1.html">Header V1</a></li>
-                                    <li><a href="header-v2.html">Header V2</a></li>
-                                    <li><a href="header-v3.html">Header V3</a></li>
-                                    <li><a href="header-v4.html">Header V4</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="about.html" class="hvr-overline-from-left">About Us</a>
-                        <ul class="submenu">
-                            <li><a href="team.html">Our Team</a></li>
-                            <li class="dropdown"><a href="testimonials-v1.html">Testimonial</a>
-                                <ul class="submenu">
-                                    <li><a href="testimonials-v1.html">Testimonial V1</a></li>
-                                    <li><a href="testimonials-v2.html">Testimonial V2</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="faq.html">FAQ</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="hvr-overline-from-left">Pages</a>
-                        <ul class="submenu">
-                            <li><a href="search-result.html">Search Results</a></li>
-                            <li><a href="no-search-results.html">No serarch result</a></li>
-                            <li><a href="404.html">404 Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="services.html" class="hvr-overline-from-left">Services</a>
-                        <ul class="submenu">
-                            <li><a href="pricing.html">Pricing</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="project-v1.html" class="hvr-overline-from-left">Projects</a>
-                        <ul class="submenu">
-                            <li><a href="project-v1.html">Projects V1</a></li>
-                            <li><a href="project-v2.html">Projects V2</a></li>
-                            <li><a href="project-v3.html">Projects V3</a></li>
-                            <li><a href="project-v4.html">Projects V4</a></li>
-                            <li><a href="project-v5.html">Projects V5</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="shop.html" class="hvr-overline-from-left">Shop</a>
-                        <ul class="submenu">
-                            <li><a href="product-details.html">Product Details</a></li>
-                            <li><a href="cart-page.html">Cart Page</a></li>
-                            <li><a href="checkout-page.html">Checkout Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="blog.html" class="hvr-overline-from-left">Blog</a>
-                        <ul class="submenu">
-                            <li><a href="blog-v2.html">Blog Style Two</a></li>
-                            <li><a href="blog-v3.html">Blog Style Three</a></li>
-                            <li><a href="blog.html">Blog Left Sidebar</a></li>
-                            <li><a href="blog-right.html">Blog Right Sidebar</a></li>
-                            <li><a href="blog-single.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html" class="hvr-overline-from-left">Contact Us</a></li>
+<!--                    <li class="dropdown">-->
+<!--                        <a href="#" class="hvr-overline-from-left">Pages</a>-->
+<!--                        <ul class="submenu">-->
+<!--                            <li><a href="search-result.html">Search Results</a></li>-->
+<!--                            <li><a href="no-search-results.html">No serarch result</a></li>-->
+<!--                            <li><a href="404.html">404 Page</a></li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+<!--                    <li><a href="contact.html" class="hvr-overline-from-left">Contact Us</a></li>-->
+                    <?php new \app\widgets\menu\Menu([
+                        'tpl' => WWW . '/menu/header.php',
+                        'table' => 'pages',
+                        'cacheKey' => 'header',
+                    ]); ?>
                 </ul>
             </nav>
         </div>
@@ -176,52 +119,6 @@
                     </ul>
                 </nav>
             </div>
-        </div>
-        <div class="row">
-            <!-- .widget -->
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 widget">
-                <h3>About Us</h3>
-                <p>Lorem ipsum dolor sit amet, consect- <br>etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis no strud exercitation ullamco. Ut enim ad minim.</p>
-                <a href="#" class="read-more">Read More <i class="fa fa-angle-double-right"></i></a>
-                <ul class="social">
-                    <li><a href="#" class="hvr-radial-out"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="hvr-radial-out"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="hvr-radial-out"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#" class="hvr-radial-out"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div> <!-- /.widget -->
-            <!-- .widget -->
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 widget">
-                <h3>popular Posts</h3>
-                <ul class="popular-post">
-                    <li>
-                        <a href="#"><h5>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</h5></a>
-                        <p class="date">June 02, 2015</p>
-                    </li>
-                    <li>
-                        <a href="#"><h5>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</h5></a>
-                        <p class="date">June 02, 2015</p>
-                    </li>
-                    <li>
-                        <a href="#"><h5>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</h5></a>
-                        <p class="date">June 02, 2015</p>
-                    </li>
-                </ul>
-            </div> <!-- /.widget -->
-            <!-- .widget -->
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 widget">
-                <h3>Get in Touch</h3>
-                <ul class="contact-info">
-                    <li><i class="fa fa-map-marker"></i> Lorance Road 542B, Tailstoi Town <br>5248 MT, Wordwide Country</li>
-                    <li><i class="fa fa-phone"></i> 01865 524 8503</li>
-                    <li><i class="fa fa-envelope-o"></i> contact@plumberx.com</li>
-                    <li><i class="fa fa-globe"></i> http://plumberx.com</li>
-                </ul>
-            </div> <!-- /.widget -->
-            <!-- .widget -->
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 widget">
-                <img class="positioned wow slideInUp " src="img/resources/footer-man.png" alt="">
-            </div> <!-- /.widget -->
         </div>
     </div>
 </footer> <!-- /footer -->

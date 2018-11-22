@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 21 2018 г., 23:50
+-- Время создания: Ноя 22 2018 г., 16:42
 -- Версия сервера: 5.6.37
--- Версия PHP: 7.1.7
+-- Версия PHP: 5.6.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -33,6 +33,7 @@ USE `santehnikpro`;
 CREATE TABLE `category` (
   `id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL,
+  `alias` varchar(255) NOT NULL,
   `description` text NOT NULL,
   `parent_id` int(10) NOT NULL DEFAULT '0',
   `img` varchar(255) NOT NULL
@@ -42,10 +43,10 @@ CREATE TABLE `category` (
 -- Дамп данных таблицы `category`
 --
 
-INSERT INTO `category` (`id`, `title`, `description`, `parent_id`, `img`) VALUES
-(1, 'Монтаж труб', 'Проводим полный монтаж труб', 0, ''),
-(2, 'Разводка труб', 'Полная разводка', 0, ''),
-(3, 'Отопление', 'Описание про отопление', 1, '');
+INSERT INTO `category` (`id`, `title`, `alias`, `description`, `parent_id`, `img`) VALUES
+(1, 'Монтаж труб', 'montaj-trub', 'Проводим полный монтаж труб', 0, ''),
+(2, 'Разводка труб', 'razvodka-trub', 'Полная разводка', 0, ''),
+(3, 'Отопление', 'otoplenie', 'Описание про отопление', 0, '');
 
 -- --------------------------------------------------------
 
@@ -67,6 +68,31 @@ INSERT INTO `constants` (`id`, `name`, `value`) VALUES
 (1, 'social', '                <ul>\r\n                    <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>\r\n                </ul>'),
 (2, 'contact_info', '                <ul>\r\n                    <li><a href=\"tel:+1234567890\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-phone\"></i>  + (123) 456 7890 </a></li>\r\n                    <li><a href=\"mailto:info@plumberx.com\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-envelope-o\"></i> info@plumberx.com</a></li>\r\n                </ul>'),
 (3, 'text_slider', '<p>We\'re on call 24/7 to react promptly to your <b>plumbing emergencies.</b></p>');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `pages`
+--
+
+CREATE TABLE `pages` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `alias` varchar(255) NOT NULL,
+  `parent_id` int(11) NOT NULL DEFAULT '0',
+  `text` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `pages`
+--
+
+INSERT INTO `pages` (`id`, `title`, `alias`, `parent_id`, `text`) VALUES
+(1, 'О компании', 'o-kompanii', 0, 'Какой-то текст о компании'),
+(2, 'Контакты', 'contacty', 0, 'текст о контактах'),
+(3, 'Услуги', 'uslugi', 0, 'lkjfdshgkjfdsghkjfdsgfdsk'),
+(4, 'Водопровод', 'vodoprovod', 3, 'gfdsgfdsgfsdgfdsgfdsd'),
+(5, 'Сантехника', 'santehnika', 3, 'lkjfdshglkjsdfhgkjfdshgkjgfds');
 
 -- --------------------------------------------------------
 
@@ -154,6 +180,12 @@ ALTER TABLE `constants`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `pages`
+--
+ALTER TABLE `pages`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `sliders`
 --
 ALTER TABLE `sliders`
@@ -185,6 +217,11 @@ ALTER TABLE `category`
 --
 ALTER TABLE `constants`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
+-- AUTO_INCREMENT для таблицы `pages`
+--
+ALTER TABLE `pages`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT для таблицы `sliders`
 --
