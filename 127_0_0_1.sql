@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 22 2018 г., 16:42
+-- Время создания: Дек 10 2018 г., 22:00
 -- Версия сервера: 5.6.37
--- Версия PHP: 5.6.31
+-- Версия PHP: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -89,10 +89,16 @@ CREATE TABLE `pages` (
 
 INSERT INTO `pages` (`id`, `title`, `alias`, `parent_id`, `text`) VALUES
 (1, 'О компании', 'o-kompanii', 0, 'Какой-то текст о компании'),
-(2, 'Контакты', 'contacty', 0, 'текст о контактах'),
-(3, 'Услуги', 'uslugi', 0, 'lkjfdshgkjfdsghkjfdsgfdsk'),
-(4, 'Водопровод', 'vodoprovod', 3, 'gfdsgfdsgfsdgfdsgfdsd'),
-(5, 'Сантехника', 'santehnika', 3, 'lkjfdshglkjsdfhgkjfdshgkjgfds');
+(2, 'Контакты', 'contacty', 0, 'Какой-то текст о контактах'),
+(3, 'Услуги', 'uslugi', 0, 'Какой-то текст об услугах'),
+(4, 'Водопровод', 'vodoprovod', 0, 'Какой-то текст о водопроводе'),
+(5, 'Сантехника', 'santehnika', 3, 'Какой-то текст о сантехнике'),
+(6, 'Трубы', 'trybi', 4, 'Какой-то текст о трубах'),
+(7, 'Уголки', 'ugolki', 4, 'Какой-то текст о уголках'),
+(8, 'Не сантехника', 'nesantehnika', 3, 'Какой-то текст о не сантехнике'),
+(9, 'Краны', 'krany', 5, 'Какой-то текст о кранах'),
+(10, 'Ванны', 'vanny', 5, 'Какой-то текст о ваннах'),
+(11, 'Унитазы', 'unitazy', 5, 'Какой-то текст о унитахзах');
 
 -- --------------------------------------------------------
 
@@ -221,7 +227,7 @@ ALTER TABLE `constants`
 -- AUTO_INCREMENT для таблицы `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT для таблицы `sliders`
 --

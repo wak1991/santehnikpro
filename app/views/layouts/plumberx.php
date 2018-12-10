@@ -76,8 +76,8 @@
                 <button class="mainmenu-toggler">
                     <i class="fa fa-bars"></i>
                 </button>
-                <ul class="mainmenu pull-right">
-<!--                    <li class="dropdown">-->
+                <!--                 <ul class="mainmenu pull-right">
+                <!--                    <li class="dropdown">-->
 <!--                        <a href="#" class="hvr-overline-from-left">Pages</a>-->
 <!--                        <ul class="submenu">-->
 <!--                            <li><a href="search-result.html">Search Results</a></li>-->
@@ -86,12 +86,14 @@
 <!--                        </ul>-->
 <!--                    </li>-->
 <!--                    <li><a href="contact.html" class="hvr-overline-from-left">Contact Us</a></li>-->
+<!--                </ul>-->
                     <?php new \app\widgets\menu\Menu([
-                        'tpl' => WWW . '/menu/header.php',
-                        'table' => 'pages',
                         'cacheKey' => 'header',
+                        'class' => 'mainmenu pull-right',
+                        'table' => 'pages',
+                        'tpl' => WWW . '/menu/header.php',
                     ]); ?>
-                </ul>
+
             </nav>
         </div>
     </div>

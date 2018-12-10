@@ -71,6 +71,7 @@
                     <?php new \app\widgets\menu\Menu([
                             'tpl' => WWW . '/menu/menu.php',
                             'class' => 'clearfix',
+                            'cacheKey' => 'menu',
                     ]); ?>
                 </div>
             </div>
@@ -80,7 +81,7 @@
                             'tpl' => WWW . '/menu/menu2.php',
                             'container' => 'div',
                             'class' => 'service-tab-content clearfix',
-                            'cacheKey' => 'deskription_menu',
+                            'cacheKey' => 'menu2',
                         ]); ?>
                 </div>
             </div>
@@ -250,3 +251,7 @@
         </div>
     </div>
 </section> <!-- /#emergency -->
+<p><?php echo md5('menu2'); ?></p>
+<p><?php echo md5('menu'); ?></p>
+<p><?php echo md5('header'); ?></p>
+<p><?php echo md5('cats'); ?></p>

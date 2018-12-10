@@ -14,10 +14,10 @@ class AppController extends Controller
     {
         parent::__construct($route);
         new AppModel();
-        App::$app->setProperty('cats', self::cacheCategory());
+//        App::$app->setProperty('cats', self::cacheCategory());
     }
 
-    public static function cacheCategory()
+/*   public static function cacheCategory()
     {
         $cache = Cache::instance();
         $cats = $cache->get('cats');
@@ -26,5 +26,6 @@ class AppController extends Controller
             $cache->set('cats', $cats);
         }
         return $cats;
-    }
+    }*/
+
 }

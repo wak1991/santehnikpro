@@ -43,7 +43,7 @@ class Menu
         if (!$this->menuHtml){
             $this->data = App::$app->getProperty('cats');
             if (!$this->data){
-                $this->data = $cats = \R::getAssoc("SELECT * FROM {$this->table}");
+                $this->data = \R::getAssoc("SELECT * FROM {$this->table}");
             }
             $this->tree = $this->getTree();
             $this->menuHtml = $this->getMenuHtml($this->tree);
