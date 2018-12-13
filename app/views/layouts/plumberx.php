@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <base href="/">
     <meta charset="UTF-8">
     <?=$this->getMeta();?>
     <!-- Responsive Meta Tag -->
@@ -64,7 +65,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-lg-offset-0 col-md-offset-4 logo">
-                <a href="index.html">
+                <a href="<?=PATH;?>">
                     <img src="img/resources/logo.png" alt="Plumberx">
                 </a>
             </div>
@@ -76,17 +77,6 @@
                 <button class="mainmenu-toggler">
                     <i class="fa fa-bars"></i>
                 </button>
-                <!--                 <ul class="mainmenu pull-right">
-                <!--                    <li class="dropdown">-->
-<!--                        <a href="#" class="hvr-overline-from-left">Pages</a>-->
-<!--                        <ul class="submenu">-->
-<!--                            <li><a href="search-result.html">Search Results</a></li>-->
-<!--                            <li><a href="no-search-results.html">No serarch result</a></li>-->
-<!--                            <li><a href="404.html">404 Page</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
-<!--                    <li><a href="contact.html" class="hvr-overline-from-left">Contact Us</a></li>-->
-<!--                </ul>-->
                     <?php new \app\widgets\menu\Menu([
                         'cacheKey' => 'header',
                         'class' => 'mainmenu pull-right',
@@ -111,14 +101,20 @@
                 <div class="request-for-qoute-wrap"><a href="contact.html" class="request-for-qoute wow slideInDown hvr-bounce-to-right">Request for a Free Quote</a></div>
                 <nav class="footer-menu">
                     <button class="footer-nav-toggler hvr-bounce-to-right">Footer Menu <i class="fa fa-bars"></i></button>
-                    <ul>
+<!--                    <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="project-v1.html">Projects</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
+                    </ul>-->
+                    <?php new \app\widgets\menu\Menu([
+                        'cacheKey' => 'footer',
+                        'table' => 'pages',
+                        'tpl' => WWW . '/menu/footer.php',
+                        'class' => '',
+                    ]); ?>
                 </nav>
             </div>
         </div>

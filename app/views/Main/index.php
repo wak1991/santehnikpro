@@ -251,7 +251,3 @@
         </div>
     </div>
 </section> <!-- /#emergency -->
-<p><?php echo md5('menu2'); ?></p>
-<p><?php echo md5('menu'); ?></p>
-<p><?php echo md5('header'); ?></p>
-<p><?php echo md5('cats'); ?></p>

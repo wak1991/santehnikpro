@@ -1,0 +1,1 @@
+<li><a href="page/<?=$category['alias'];?>"><?=$category['title'];?></a></li>
