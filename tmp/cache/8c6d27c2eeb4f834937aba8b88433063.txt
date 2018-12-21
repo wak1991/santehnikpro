@@ -1,0 +1,28 @@
+a:2:{s:4:"data";s:1130:"<div id="montaj-trub">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="category/montaj-trub">Проводим полный монтаж труб</a></p>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                <img src="img/service-we-provide/1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div><div id="razvodka-trub">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="category/razvodka-trub">Полная разводка</a></p>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                <img src="img/service-we-provide/1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div><div id="otoplenie">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="category/otoplenie">Описание про отопление</a></p>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                <img src="img/service-we-provide/1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>";s:8:"end_time";i:1545396666;}

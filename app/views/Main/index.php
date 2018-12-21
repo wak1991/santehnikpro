@@ -63,7 +63,7 @@
 <section id="service-we-provide">
     <div class="container">
         <div class="section-title">
-            <h1>Services that we offers</h1>
+            <h1>Каталог услуг</h1>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-3 wow slideInLeft">
