@@ -33,11 +33,11 @@
     <div class="container">
         <div class="row">
             <div class="social pull-left">
-                <?= $constant[1]['value']; ?>
+                <?php new \app\widgets\constants\Constants('social');?>
             </div> <!-- /.social -->
             <div class="contact-info pull-right">
                 <ul>
-                    <?= $constant[2]['value']; ?>
+                    <?php new \app\widgets\constants\Constants('contact_info');?>
                 </ul>
             </div> <!-- /.contact-info -->
         </div>

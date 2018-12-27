@@ -22,9 +22,7 @@ class CategoryController extends AppController
         // хлебные крошки
         $bredcrumbs = Breadcrumbs::getBreadcrumbs();
 
-        $constant = \R::findAll('constants');
-        $constant = json_decode(json_encode($constant), True);
         $this->setMeta($category->title, 'Описание', 'Ключевики');
-        $this->set(compact('constant', 'category'));
+        $this->set(compact('category'));
     }
 }

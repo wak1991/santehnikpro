@@ -53,7 +53,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <?= $constant[3]['value']; ?>
+                <?php new \app\widgets\constants\Constants('text_slider');?>
             </div>
         </div>
     </div>

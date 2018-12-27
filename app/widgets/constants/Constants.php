@@ -5,19 +5,11 @@ namespace app\widgets\constants;
 
 class Constants
 {
-    protected $data;
 
-    public function __construct($options = [])
+    public function __construct($options)
     {
-        $this->data = \R::getAssoc("SELECT * FROM {$this->table}");
+        $constant = \R::findOne('constants', 'name = ?', [$options]);
+        echo $constant['value'];
     }
 
-    protected function getOptions($options)
-    {
-        foreach ($options as $k => $v){
-            if (property_exists($this, $k)){
-                $this->$k = $v;
-            }
-        }
-    }
 }

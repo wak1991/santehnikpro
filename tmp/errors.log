@@ -738,3 +738,5 @@
 =====================
 [2018-12-21 14:54:25] Текст ошибки: Не найден вид C:\OSPanel\domains\santehnikpro/app/views/Category/index.php | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\base\View.php | Строка: 41
 =====================
+[2018-12-27 12:34:10] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================

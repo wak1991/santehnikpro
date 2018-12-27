@@ -17,9 +17,7 @@ class PageController extends AppController
         // хлебные крошки
         $bredcrumbs = Breadcrumbs::getBreadcrumbs();
 
-        $constant = \R::findAll('constants');
-        $constant = json_decode(json_encode($constant), True);
         $this->setMeta($page->title, 'Описание', 'Ключевики');
-        $this->set(compact('constant', 'page'));
+        $this->set(compact('page'));
     }
 }
