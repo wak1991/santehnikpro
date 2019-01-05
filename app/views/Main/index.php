@@ -92,94 +92,7 @@
 <!-- #our-projects -->
 <section id="our-projects">
     <div class="container">
-        <div class="section-title">
-            <h1>OUr projects</h1>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 col-md-12 masonary-gallery">
-                <div class="masonary-item width-1">
-                    <a class="fancybox" href="img/our-projects/1.jpg"><div class="img-wrap">
-                            <img src="img/our-projects/1.jpg" alt="">
-                            <div class="content-wrap">
-                                <div class="border">
-                                    <div class="content">
-                                        <h4>Kitchken Maintance</h4>
-                                        <span>Pipe Leakages Fixed</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div></a>
-                </div>
-                <div class="masonary-item width-1">
-                    <a class="fancybox" href="img/our-projects/2.jpg"><div class="img-wrap">
-                            <img src="img/our-projects/2.jpg" alt="">
-                            <div class="content-wrap">
-                                <div class="border">
-                                    <div class="content">
-                                        <h4>Kitchken Maintance</h4>
-                                        <span>Pipe Leakages Fixed</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div></a>
-                </div>
-                <div class="masonary-item width-1 height-1">
-                    <a class="fancybox" href="img/our-projects/3.jpg"><div class="img-wrap">
-                            <img src="img/our-projects/3.jpg" alt="">
-                            <div class="content-wrap">
-                                <div class="border">
-                                    <div class="content">
-                                        <h4>Kitchken Maintance</h4>
-                                        <span>Pipe Leakages Fixed</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div></a>
-                </div>
-                <div class="masonary-item width-1">
-                    <a class="fancybox" href="img/our-projects/4.jpg"><div class="img-wrap">
-                            <img src="img/our-projects/4.jpg" alt="">
-                            <div class="content-wrap">
-                                <div class="border">
-                                    <div class="content">
-                                        <h4>Kitchken Maintance</h4>
-                                        <span>Pipe Leakages Fixed</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div></a>
-                </div>
-                <div class="masonary-item width-2">
-                    <a class="fancybox" href="img/our-projects/5.jpg"><div class="img-wrap">
-                            <img src="img/our-projects/5.jpg" alt="">
-                            <div class="content-wrap">
-                                <div class="border">
-                                    <div class="content">
-                                        <h4>Kitchken Maintance</h4>
-                                        <span>Pipe Leakages Fixed</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div></a>
-                </div>
-                <div class="masonary-item width-1">
-                    <a class="fancybox" href="img/our-projects/6.jpg"><div class="img-wrap">
-                            <img src="img/our-projects/6.jpg" alt="">
-                            <div class="content-wrap">
-                                <div class="border">
-                                    <div class="content">
-                                        <h4>Kitchken Maintance</h4>
-                                        <span>Pipe Leakages Fixed</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div></a>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="view-all-btn"><a href="project-v1.html" class="view-all hvr-bounce-to-right">view all</a></div>
+        <?php new \app\widgets\constants\Constants('our_proects');?>
     </div>
 </section> <!-- /#our-projects -->
 
@@ -236,18 +149,3 @@
     </div>
 </section>	<!-- /#testimonials -->
 <?php endif; ?>
-<!-- #emergency -->
-<section id="emergency">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-3">
-                <img class="wow bounceInLeft" src="img/emergency/man.png" alt="">
-            </div>
-            <div class="col-lg-offset-3 col-md-offset-3 col-lg-9 col-md-9">
-                <h2>Emergency Leaks & <span>Pipe Bursts</span></h2>
-                <p>If you have an emergency plumbing need, simply call our 24 hour emergecny plumbing</p>
-                <p class="phone-contact"><b>01865 524 8503</b> OR <a href="contact.html" class="hvr-bounce-to-right">Contact Us</a></p>
-            </div>
-        </div>
-    </div>
-</section> <!-- /#emergency -->

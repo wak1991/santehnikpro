@@ -8,7 +8,9 @@ class CategoryController extends AppController
 {
     public function indexAction()
     {
-
+        $category = \R::findAll('category');
+        $this->setMeta('Тайтл', 'Описание', 'Ключевики');
+        $this->set(compact('category'));
     }
 
     public function viewAction()

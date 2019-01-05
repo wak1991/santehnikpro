@@ -1,4 +1,6 @@
 a:2:{s:4:"data";s:1005:"<li >
+    <a href="/category">Каталог</a>
+    </li><li >
     <a href="page/o-kompanii">О компании</a>
     </li><li >
     <a href="page/contacty">Контакты</a>
@@ -26,6 +28,4 @@ a:2:{s:4:"data";s:1005:"<li >
     </li><li >
     <a href="page/ugolki">Уголки</a>
     </li>        </ul>
-    </li><li >
-    <a href="/category">Каталог</a>
-    </li>";s:8:"end_time";i:1545916206;}
+    </li>";s:8:"end_time";i:1546681539;}

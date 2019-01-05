@@ -46,7 +46,7 @@
 
 <!-- header -->
 <header>
-    <div class="search-box">
+<!--    <div class="search-box">
         <div class="container">
             <div class="pull-right search  col-lg-3 col-md-4 col-sm-5 col-xs-12">
                 <form action="#">
@@ -61,7 +61,7 @@
                 <p><i class="icon icon-FullShoppingCart"></i> You Have <span>1 Item</span> in your Cart. Price is <span>$199</span></p>
             </div>
         </div>
-    </div>
+    </div>-->
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-lg-offset-0 col-md-offset-4 logo">
@@ -70,13 +70,13 @@
                 </a>
             </div>
             <nav class="col-lg-9 col-md-12 col-lg-pull-0 col-md-pull-1 mainmenu-container">
-                <ul class="top-icons-wrap pull-right">
+<!--                <ul class="top-icons-wrap pull-right">
                     <li class="top-icons search"><a href="#"><i class="icon icon-Search"></i></a></li>
                     <li class="top-icons cart"><a href="#"><i class="icon icon-ShoppingCart"></i></a></li>
                 </ul>
                 <button class="mainmenu-toggler">
                     <i class="fa fa-bars"></i>
-                </button>
+                </button>-->
                     <?php new \app\widgets\menu\Menu([
                         'cacheKey' => 'header',
                         'class' => 'mainmenu pull-right',
@@ -93,22 +93,27 @@
     <?=$content;?>
 </div>
 
+<!-- #emergency -->
+<section id="emergency" class="team-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="wow bounceInLeft" src="img/emergency/man.png" alt="">
+            </div>
+            <div class="col-lg-offset-3 col-lg-9">
+                <h2>Аварийная утечка &amp; <span>Лопнула труба</span></h2>					<p>Звоните нам и мы оперативно решим вашу сантехнику <b>в любое для вас время.</b></p>					<p class="phone-contact"><b>+375 (44) 454-04-44</b> или <a href="?view=contact" class="hvr-bounce-to-right">Контакты</a></p>
+            </div>
+        </div>
+    </div>
+</section><!-- /#emergency -->
 <!-- footer -->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <div class="request-for-qoute-wrap"><a href="contact.html" class="request-for-qoute wow slideInDown hvr-bounce-to-right">Request for a Free Quote</a></div>
+                <div class="request-for-qoute-wrap"><a href="mailto:santehkostya@mail.ru" class="request-for-qoute wow slideInDown hvr-bounce-to-right">Ответим на все Ваши вопросы</a></div>
                 <nav class="footer-menu">
                     <button class="footer-nav-toggler hvr-bounce-to-right">Footer Menu <i class="fa fa-bars"></i></button>
-<!--                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="project-v1.html">Projects</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>-->
                     <?php new \app\widgets\menu\Menu([
                         'cacheKey' => 'footer',
                         'table' => 'pages',
