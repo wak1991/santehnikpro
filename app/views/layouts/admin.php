@@ -4,6 +4,7 @@
 <head>
     <base href="/adminlte/">
     <meta charset="utf-8">
+    <?=$this->getMeta();?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AdminLTE 2 | Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->
@@ -335,9 +336,39 @@
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu" data-widget="tree">
                 <li class="header">МЕНЮ</li>
-                <li class="active">
+                <li>
                     <a href="<?=ADMIN;?>">
                         <i class="fa fa-home"></i> <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= ADMIN ?>/slider">
+                        <i class="fa fa-image"></i> <span>Слайдеры</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= ADMIN ?>/specialist">
+                        <i class="fa fa-users"></i> <span>Наши специалисты</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= ADMIN ?>/testimonial">
+                        <i class="fa fa-commenting-o"></i> <span>Отзывы наших клиентов</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= ADMIN ?>/constant">
+                        <i class="fa fa-hourglass"></i> <span>Константы</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= ADMIN ?>/page">
+                        <i class="fa fa-file-o"></i> <span>Страницы</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= ADMIN ?>/category">
+                        <i class="fa fa-navicon "></i> <span>Категории</span>
                     </a>
                 </li>
             </ul>
@@ -596,5 +627,14 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+
+<?php
+$logs = R::getDatabaseAdapter()
+    ->getDatabase()
+    ->getLogger();
+
+debug( $logs->grep( 'SELECT' ) );
+?>
+
 </body>
 </html>
