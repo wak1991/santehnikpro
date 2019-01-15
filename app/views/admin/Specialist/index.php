@@ -31,7 +31,9 @@
                                 <td><?=$specialist->name;?></td>
                                 <td><?=$specialist->specialty;?></td>
                                 <td><?=$specialist->sort;?></td>
-                                <td><a href="<?=ADMIN?>/specialist/edit?id=<?=$specialist->id;?>"><i class="fa fa-fw fa-eye"></i></a></td>
+                                <td>
+                                    <a href="<?=ADMIN?>/specialist/edit?id=<?=$specialist->id;?>"><i class="fa fa-fw fa-edit"></i></a>
+                                    <a href="<?=ADMIN;?>/specialist/delete?id=<?=$specialist['id'];?>" class="delete"><i class="fa fa-fw fa-trash text-danger"></i></a></td>
                             </tr>
                             <?php endforeach; ?>
                             </tbody>

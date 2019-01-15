@@ -364,3 +364,15 @@
 =====================
 [2019-01-14 21:05:24] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
 =====================
+[2019-01-15 20:15:25] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-15 20:33:19] Текст ошибки: Не найден вид C:\OSPanel\domains\santehnikpro/app/views/admin\Specialist/edit.php | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\base\View.php | Строка: 41
+=====================
+[2019-01-15 20:47:07] Текст ошибки: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: C:\OSPanel\domains\santehnikpro\app\views\admin\Specialist\edit.php | Строка: 31
+=====================
+[2019-01-15 21:12:26] Текст ошибки: Метод app\controllers\admin\SpecialistController::deleteAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-15 21:18:59] Текст ошибки: Метод app\controllers\admin\SpecialistController::deleteAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-15 21:35:48] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
