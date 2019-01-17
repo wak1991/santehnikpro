@@ -1,12 +1,13 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
     <h1>
-        Список специалистов
+        Список страниц
     </h1>
     <ol class="breadcrumb">
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
-        <li class="active">Список специалистов</li>
+        <li class="active">Список страниц</li>
     </ol>
+    <a href="<?=ADMIN;?>" class="btn btn-primary delete">Добавить</a>
 </section>
 
 <!-- Main content -->
@@ -15,28 +16,14 @@
         <div class="col-md-12">
             <div class="box">
                 <div class="box-body">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-hover">
-                            <thead>
-                            <tr>
-                                <th>Имя</th>
-                                <th>Специальность</th>
-                                <th>Сортировка</th>
-                                <th>Дейcтвие</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <?php foreach ($specialists as $specialist): ?>
-                                <tr>
-                                    <td><?=$specialist->name;?></td>
-                                    <td><?=$specialist->specialty;?></td>
-                                    <td><?=$specialist->sort;?></td>
-                                    <td><a href="<?=ADMIN?>/specialist/edit?id=<?=$specialist->id;?>"><i class="fa fa-fw fa-eye"></i></a></td>
-                                </tr>
-                            <?php endforeach; ?>
-                            </tbody>
-                        </table>
-                    </div>
+                    <?php new \app\widgets\menu\Menu([
+                        'tpl' => WWW . '/menu/page_admin.php',
+                        'container' => 'div',
+                        'table' => 'pages',
+                        'cache' => 0,
+                        'cacheKey' => 'admin_page',
+                        'class' => 'list-group list-group-root well',
+                    ])?>
                 </div>
             </div>
         </div>

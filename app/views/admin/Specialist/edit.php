@@ -28,9 +28,7 @@
                         <label>Сортировка</label>
                         <input type="text" class="form-control" value="<?=$specialist['sort'];?>" placeholder="Установите сортировку">
                     </div>
-                    <div class="box-footer">
-                        <button type="submit" class="btn btn-primary">Сохранить</button>
-                    </div>
+                    <a href="<?=ADMIN;?>" class="btn btn-success">Сохранить</a>
                     <a href="<?=ADMIN;?>/specialist/delete?id=<?=$specialist['id'];?>" class="btn btn-danger delete">Удалить</a>
                 </div>
             </div>

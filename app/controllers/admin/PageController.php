@@ -7,8 +7,6 @@ class PageController extends AppController
 {
     public function indexAction()
     {
-        $specialists = \R::find('specialists', 'ORDER BY sort');
-        $this->setMeta('Список специалистов');
-        $this->set(compact('specialists'));
+        $this->setMeta('Список страниц');
     }
 }

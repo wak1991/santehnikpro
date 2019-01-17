@@ -45,22 +45,6 @@
 
 <!-- header -->
 <header>
-<!--    <div class="search-box">
-        <div class="container">
-            <div class="pull-right search  col-lg-3 col-md-4 col-sm-5 col-xs-12">
-                <form action="#">
-                    <input type="text" placeholder="Search Here"> <button type="submit"><i class="icon icon-Search"></i></button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="cart-box">
-        <div class="container">
-            <div class="pull-right cart col-lg-6 col-xs-12">
-                <p><i class="icon icon-FullShoppingCart"></i> You Have <span>1 Item</span> in your Cart. Price is <span>$199</span></p>
-            </div>
-        </div>
-    </div>-->
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-lg-offset-0 col-md-offset-4 logo">
@@ -69,13 +53,6 @@
                 </a>
             </div>
             <nav class="col-lg-9 col-md-12 col-lg-pull-0 col-md-pull-1 mainmenu-container">
-<!--                <ul class="top-icons-wrap pull-right">
-                    <li class="top-icons search"><a href="#"><i class="icon icon-Search"></i></a></li>
-                    <li class="top-icons cart"><a href="#"><i class="icon icon-ShoppingCart"></i></a></li>
-                </ul>
-                <button class="mainmenu-toggler">
-                    <i class="fa fa-bars"></i>
-                </button>-->
                     <?php new \app\widgets\menu\Menu([
                         'cacheKey' => 'header',
                         'class' => 'mainmenu pull-right',
@@ -156,6 +133,7 @@
 <script src="js/validate.js"></script> <!-- Form Validator JS -->
 <script src="js/jquery.easing.min.js"></script> <!-- jquery easing JS -->
 <script src="js/custom.js"></script> <!-- Custom JS -->
+<script src="js/my.js"></script>
 
 <?php
 $logs = R::getDatabaseAdapter()
