@@ -20,4 +20,5 @@ class PageController extends AppController
         $this->setMeta($page->title, 'Описание', 'Ключевики');
         $this->set(compact('page'));
     }
+
 }

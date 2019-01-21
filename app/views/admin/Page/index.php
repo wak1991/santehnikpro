@@ -7,7 +7,7 @@
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
         <li class="active">Список страниц</li>
     </ol>
-    <a href="<?=ADMIN;?>" class="btn btn-primary delete">Добавить</a>
+    <a href="<?=ADMIN;?>/page/add" class="btn btn-primary">Добавить</a>
 </section>
 
 <!-- Main content -->
