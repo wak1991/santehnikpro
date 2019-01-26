@@ -538,3 +538,27 @@
 =====================
 [2019-01-21 23:42:26] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santehnikpro.page' doesn't exist | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
 =====================
+[2019-01-23 22:28:23] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-23 22:28:27] Текст ошибки: Метод app\controllers\admin\PageController::editAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-23 22:45:42] Текст ошибки: Class 'Valitron\Validator' not found | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\base\Model.php | Строка: 54
+=====================
+[2019-01-23 22:55:12] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'description' in 'field list' | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-01-23 22:59:49] Текст ошибки: Контроллер app\controllers\admin\PagesController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-24 23:40:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-01-24 23:40:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-01-25 21:14:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-01-25 21:14:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-01-25 22:39:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-01-25 22:39:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-01-25 23:52:00] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================

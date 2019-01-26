@@ -1,0 +1,41 @@
+a:2:{s:4:"data";s:1341:"<li class="dropdown">
+    <a href="page/">Тестовая группа</a>
+            <ul class="submenu">
+            <li >
+    <a href="page/">Casio MQ-24-7BUL</a>
+    </li>        </ul>
+    </li><li >
+    <a href="page/">Тестовая группа 2</a>
+    </li><li >
+    <a href="page/">Новый  111</a>
+    </li><li >
+    <a href="/category">Каталог</a>
+    </li><li >
+    <a href="page/o-kompanii">О компании</a>
+    </li><li >
+    <a href="page/contacty">Контакты</a>
+    </li><li class="dropdown">
+    <a href="page/uslugi">Услуги</a>
+            <ul class="submenu">
+            <li class="dropdown">
+    <a href="page/santehnika">Сантехника</a>
+            <ul class="submenu">
+            <li >
+    <a href="page/krany">Краны</a>
+    </li><li >
+    <a href="page/vanny">Ванны</a>
+    </li><li >
+    <a href="page/unitazy">Унитазы</a>
+    </li>        </ul>
+    </li><li >
+    <a href="page/nesantehnika">Не сантехника</a>
+    </li>        </ul>
+    </li><li class="dropdown">
+    <a href="page/vodoprovod">Водопровод</a>
+            <ul class="submenu">
+            <li >
+    <a href="page/trybi">Трубы</a>
+    </li><li >
+    <a href="page/ugolki">Уголки</a>
+    </li>        </ul>
+    </li>";s:8:"end_time";i:1548448763;}
