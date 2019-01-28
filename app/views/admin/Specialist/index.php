@@ -7,6 +7,7 @@
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
         <li class="active">Список специалистов</li>
     </ol>
+    <a href="<?=ADMIN;?>/specialist/add" class="btn btn-primary">Добавить</a>
 </section>
 
 <!-- Main content -->

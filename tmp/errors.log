@@ -562,3 +562,55 @@
 =====================
 [2019-01-25 23:52:00] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
 =====================
+[2019-01-28 21:22:23] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 21:22:38] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 21:22:47] Текст ошибки: Контроллер app\controllers\admin\PagesController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 21:27:12] Текст ошибки: Контроллер app\controllers\admin\PagesController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 21:28:52] Текст ошибки: Контроллер app\controllers\admin\PagesController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 21:29:07] Текст ошибки: Контроллер app\controllers\admin\PagesController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 21:30:51] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 21:33:36] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 21:35:39] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 21:36:29] Текст ошибки: Метод app\controllers\admin\SliderController::addAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 21:44:46] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santehnikpro.slider' doesn't exist | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-01-28 21:45:15] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santehnikpro.slider' doesn't exist | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-01-28 21:45:31] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santehnikpro.slider' doesn't exist | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-01-28 21:52:02] Текст ошибки: Метод app\controllers\admin\SliderController::addAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 21:55:55] Текст ошибки: Метод app\controllers\admin\ConstantController::editAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 21:55:59] Текст ошибки: Метод app\controllers\admin\ConstantController::editAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 21:58:15] Текст ошибки: Метод app\controllers\admin\TestimonialController::editAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 21:58:19] Текст ошибки: Метод app\controllers\admin\TestimonialController::deleteAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 21:59:58] Текст ошибки: Метод app\controllers\admin\ConstantController::addAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 22:00:03] Текст ошибки: Метод app\controllers\admin\ConstantController::deleteAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-01-28 22:52:18] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-01-28 22:56:38] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santehnikpro.page' doesn't exist | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-01-28 23:07:11] Текст ошибки: Не найден вид C:\OSPanel\domains\santehnikpro/app/views/admin\Category/edit.php | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\base\View.php | Строка: 41
+=====================
+[2019-01-28 23:10:22] Текст ошибки: Не найден вид C:\OSPanel\domains\santehnikpro/app/views/admin\Category/edit.php | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\base\View.php | Строка: 41
+=====================
+[2019-01-28 23:11:06] Текст ошибки: Class 'app\controllers\admin\Category' not found | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\admin\CategoryController.php | Строка: 20
+=====================
+[2019-01-28 23:12:17] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'keywords' in 'field list' | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================

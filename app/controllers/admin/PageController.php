@@ -26,7 +26,7 @@ class PageController extends AppController
             }
             if ($id = $page->save('pages')){
                 $alias = AppModel::createAlias('pages', 'alias', $data['title'], $id);
-                $page = \R::load('category', $id);
+                $page = \R::load('pages', $id);
                 $page->alias = $alias;
                 \R::store($page);
                 $_SESSION['success'] = 'Страница добавлена';
@@ -49,7 +49,7 @@ class PageController extends AppController
             }
             if ($page->update('pages', $id)){
                 $alias = AppModel::createAlias('pages', 'alias', $data['title'], $id);
-                $page = \R::load('category', $id);
+                $page = \R::load('pages', $id);
                 $page->alias = $alias;
                 \R::store($page);
                 $_SESSION['success'] = 'Страница обновлена';
@@ -61,5 +61,14 @@ class PageController extends AppController
         App::$app->setProperty('parent_id', $page->parent_id);
         $this->setMeta("Редактирование страницы {$page->title}");
         $this->set(compact('page'));
+    }
+
+    public function deleteAction()
+    {
+        $page_id = $this->getRequestID();
+        $page = \R::load('pages', $page_id);
+        \R::trash($page);
+        $_SESSION['success'] = 'Страница удалёна';
+        redirect(ADMIN . '/page');
     }
 }

@@ -18,15 +18,15 @@
                 <div class="box-body">
                     <div class="form-group">
                         <label>Имя</label>
-                        <input type="text" class="form-control" value="<?=$specialist['name'];?>" placeholder="Введите имя">
+                        <input type="text" name="name" class="form-control" value="<?=$specialist['name'];?>" placeholder="Введите имя">
                     </div>
                     <div class="form-group">
                         <label>Специальность</label>
-                        <input type="text" class="form-control" value="<?=$specialist['specialty'];?>" placeholder="Введите специальность">
+                        <input type="text" name="specialty" class="form-control" value="<?=$specialist['specialty'];?>" placeholder="Введите специальность">
                     </div>
                     <div class="form-group">
                         <label>Сортировка</label>
-                        <input type="text" class="form-control" value="<?=$specialist['sort'];?>" placeholder="Установите сортировку">
+                        <input type="text" name="sort" class="form-control" value="<?=$specialist['sort'];?>" placeholder="Установите сортировку">
                     </div>
                     <a href="<?=ADMIN;?>" class="btn btn-success">Сохранить</a>
                     <a href="<?=ADMIN;?>/specialist/delete?id=<?=$specialist['id'];?>" class="btn btn-danger delete">Удалить</a>

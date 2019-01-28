@@ -1,4 +1,4 @@
-a:2:{s:4:"data";s:5730:"<div id="montaj-trub">
+a:2:{s:4:"data";s:6358:"<div id="montaj-trub">
     <div class="col-lg-12 col-md-12 col-sm-12">
         <p>Проводим полный монтаж труб</p>
         <a href="category/montaj-trub"><div class="row">
@@ -133,4 +133,19 @@ a:2:{s:4:"data";s:5730:"<div id="montaj-trub">
             <img src="/img/service-we-provide/2.png" alt="">
         </div>
     </div>
-</div>";s:8:"end_time";i:1548448763;}
+</div><div id="casio-mq-24-7bulb">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <p></p>
+        <a href="category/casio-mq-24-7bulb"><div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                <img src="img/who-we-are/2.jpg" alt="">
+                <ul>
+                    <li><i class="fa fa-arrow-circle-o-right"></i>Подробнее</li>
+                </ul>
+            </div>
+            </div></a>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
+            <img src="/img/service-we-provide/2.png" alt="">
+        </div>
+    </div>
+</div>";s:8:"end_time";i:1548708103;}

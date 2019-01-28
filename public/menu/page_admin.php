@@ -1,7 +1,7 @@
 <?php
 $parent = isset($category['childs']);
 if(!$parent){
-    $delete = '<a href="' . ADMIN . '/pages/delete?id=' . $id . '" class="delete"><i class="fa fa-fw fa-trash text-danger"></i></a>';
+    $delete = '<a href="' . ADMIN . '/page/delete?id=' . $id . '" class="delete"><i class="fa fa-fw fa-trash text-danger"></i></a>';
 }else{
     $delete = '<i class="fa fa-fw fa-trash"></i>';
 }

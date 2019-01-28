@@ -1,14 +1,4 @@
-a:2:{s:4:"data";s:1341:"<li class="dropdown">
-    <a href="page/">Тестовая группа</a>
-            <ul class="submenu">
-            <li >
-    <a href="page/">Casio MQ-24-7BUL</a>
-    </li>        </ul>
-    </li><li >
-    <a href="page/">Тестовая группа 2</a>
-    </li><li >
-    <a href="page/">Новый  111</a>
-    </li><li >
+a:2:{s:4:"data";s:1005:"<li >
     <a href="/category">Каталог</a>
     </li><li >
     <a href="page/o-kompanii">О компании</a>
@@ -38,4 +28,4 @@ a:2:{s:4:"data";s:1341:"<li class="dropdown">
     </li><li >
     <a href="page/ugolki">Уголки</a>
     </li>        </ul>
-    </li>";s:8:"end_time";i:1548448763;}
+    </li>";s:8:"end_time";i:1548708103;}

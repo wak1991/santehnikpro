@@ -7,6 +7,7 @@
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
         <li class="active">Отзывы наших клиентов</li>
     </ol>
+    <a href="<?=ADMIN;?>/testimonial/add" class="btn btn-primary">Добавить</a>
 </section>
 
 <!-- Main content -->
@@ -29,7 +30,8 @@
                                 <tr>
                                     <td><?=$testimonial->name;?></td>
                                     <td><?=$testimonial->sort;?></td>
-                                    <td><a href="<?=ADMIN?>/specialist/edit?id=<?=$testimonial->id;?>"><i class="fa fa-fw fa-eye"></i></a></td>
+                                    <td><a href="<?=ADMIN?>/testimonial/edit?id=<?=$testimonial->id;?>"><i class="fa fa-fw fa-edit"></i></a>
+                                        <a href="<?=ADMIN;?>/testimonial/delete?id=<?=$testimonial->id;?>" class="delete"><i class="fa fa-fw fa-trash text-danger"></i></a></td>
                                 </tr>
                             <?php endforeach; ?>
                             </tbody>

@@ -35,7 +35,7 @@
                                    'name' => 'parent_id',
                                    'id' => 'parent_id',
                                 ],
-                                'prepend' => '<option value="0">Самостоятельная категория</option>',
+                                'prepend' => '<option value="0">Самостоятельная страница</option>',
                             ])?>
                         </div>
                         <div class="form-group">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 21 2019 г., 23:58
+-- Время создания: Янв 28 2019 г., 23:15
 -- Версия сервера: 5.6.37
 -- Версия PHP: 7.1.7
 
@@ -33,6 +33,7 @@ USE `santehnikpro`;
 CREATE TABLE `category` (
   `id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL,
+  `keywords` varchar(255) NOT NULL,
   `alias` varchar(255) NOT NULL,
   `description` text NOT NULL,
   `parent_id` int(10) NOT NULL DEFAULT '0',
@@ -44,10 +45,10 @@ CREATE TABLE `category` (
 -- Дамп данных таблицы `category`
 --
 
-INSERT INTO `category` (`id`, `title`, `alias`, `description`, `parent_id`, `img`, `sort`) VALUES
-(1, 'Монтаж труб', 'montaj-trub', 'Проводим полный монтаж труб', 0, '', 0),
-(2, 'Разводка труб', 'razvodka-trub', 'Полная разводка', 0, '', 0),
-(3, 'Отопление', 'otoplenie', 'Описание про отопление', 0, '', 0);
+INSERT INTO `category` (`id`, `title`, `keywords`, `alias`, `description`, `parent_id`, `img`, `sort`) VALUES
+(1, 'Монтаж труб', '', 'montaj-trub', 'Проводим полный монтаж труб', 0, '', 0),
+(2, 'Разводка труб', '', 'razvodka-trub', 'Полная разводка', 0, '', 0),
+(3, 'Отопление', '', 'otoplenie', 'Описание про отопление', 0, '', 0);
 
 -- --------------------------------------------------------
 
@@ -83,6 +84,7 @@ CREATE TABLE `pages` (
   `id` int(11) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL,
   `keywords` varchar(255) NOT NULL,
+  `description` varchar(255) NOT NULL,
   `alias` varchar(255) DEFAULT NULL,
   `parent_id` int(11) NOT NULL DEFAULT '0',
   `text` text NOT NULL,
@@ -94,19 +96,19 @@ CREATE TABLE `pages` (
 -- Дамп данных таблицы `pages`
 --
 
-INSERT INTO `pages` (`id`, `title`, `keywords`, `alias`, `parent_id`, `text`, `url`, `sort`) VALUES
-(1, 'О компании', '', 'o-kompanii', 0, '<p>Какой-то текст о компании</p>', '', 10),
-(2, 'Контакты', '', 'contacty', 0, 'Какой-то текст о контактах', '', 10),
-(3, 'Услуги', '', 'uslugi', 0, 'Какой-то текст об услугах', '', 10),
-(4, 'Водопровод', '', 'vodoprovod', 0, 'Какой-то текст о водопроводе', '', 10),
-(5, 'Сантехника', '', 'santehnika', 3, 'Какой-то текст о сантехнике', '', 10),
-(6, 'Трубы', '', 'trybi', 4, 'Какой-то текст о трубах', '', 10),
-(7, 'Уголки', '', 'ugolki', 4, 'Какой-то текст о уголках', '', 10),
-(8, 'Не сантехника', '', 'nesantehnika', 3, 'Какой-то текст о не сантехнике', '', 10),
-(9, 'Краны', '', 'krany', 5, 'Какой-то текст о кранах', '', 10),
-(10, 'Ванны', '', 'vanny', 5, 'Какой-то текст о ваннах', '', 10),
-(11, 'Унитазы', '', 'unitazy', 5, 'Какой-то текст о унитахзах', '', 10),
-(12, 'Каталог', '', 'catalog', 0, '', 'category', 1);
+INSERT INTO `pages` (`id`, `title`, `keywords`, `description`, `alias`, `parent_id`, `text`, `url`, `sort`) VALUES
+(1, 'О компании', '', '', 'o-kompanii', 0, '<p>Какой-то текст о компании</p>', '', 10),
+(2, 'Контакты', '', '', 'contacty', 0, 'Какой-то текст о контактах', '', 10),
+(3, 'Услуги', '', '', 'uslugi', 0, 'Какой-то текст об услугах', '', 10),
+(4, 'Водопровод', '', '', 'vodoprovod', 0, 'Какой-то текст о водопроводе', '', 10),
+(5, 'Сантехника', '', '', 'santehnika', 3, 'Какой-то текст о сантехнике', '', 10),
+(6, 'Трубы', '', '', 'trybi', 4, 'Какой-то текст о трубах', '', 10),
+(7, 'Уголки', '', '', 'ugolki', 4, 'Какой-то текст о уголках', '', 10),
+(8, 'Не сантехника', '', '', 'nesantehnika', 3, 'Какой-то текст о не сантехнике', '', 10),
+(9, 'Краны', '', '', 'krany', 5, 'Какой-то текст о кранах', '', 10),
+(10, 'Ванны', '', '', 'vanny', 5, 'Какой-то текст о ваннах', '', 10),
+(11, 'Унитазы', '', '', 'unitazy', 5, 'Какой-то текст о унитахзах', '', 10),
+(12, 'Каталог', '', '', 'catalog', 0, '', 'category', 1);
 
 -- --------------------------------------------------------
 
@@ -227,7 +229,7 @@ ALTER TABLE `testimonials`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT для таблицы `constants`
 --
@@ -237,7 +239,7 @@ ALTER TABLE `constants`
 -- AUTO_INCREMENT для таблицы `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT для таблицы `sliders`
 --

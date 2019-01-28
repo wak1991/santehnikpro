@@ -7,6 +7,7 @@
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
         <li class="active">Слайдеры</li>
     </ol>
+    <a href="<?=ADMIN;?>/slider/add" class="btn btn-primary">Добавить</a>
 </section>
 
 <!-- Main content -->
@@ -29,7 +30,8 @@
                                 <tr>
                                     <td><?=$slider->title;?></td>
                                     <td><?=$slider->sort;?></td>
-                                    <td><a href="<?=ADMIN?>/specialist/edit?id=<?=$slider->id;?>"><i class="fa fa-fw fa-eye"></i></a></td>
+                                    <td><a href="<?=ADMIN?>/slider/edit?id=<?=$slider->id;?>"><i class="fa fa-fw fa-edit"></i></a>
+                                    <a href="<?=ADMIN;?>/slider/delete?id=<?=$slider->id;?>" class="delete"><i class="fa fa-fw fa-trash text-danger"></i></a></td>
                                 </tr>
                             <?php endforeach; ?>
                             </tbody>
