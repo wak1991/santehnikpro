@@ -3,6 +3,8 @@
 namespace app\controllers\admin;
 
 
+use app\models\admin\Testimonial;
+
 class TestimonialController extends AppController
 {
     public function indexAction()
@@ -12,14 +14,47 @@ class TestimonialController extends AppController
         $this->set(compact('testimonials'));
     }
 
+    public function addAction()
+    {
+        if (!empty($_POST)){
+            $testimonial = new Testimonial();
+            $data = $_POST;
+            $testimonial->load($data);
+            if (!$testimonial->validate($data)){
+                $testimonial->getErrors();
+                redirect();
+            }
+            if ($id = $testimonial->save('testimonials')){
+                $testimonial = \R::load('testimonials', $id);
+                \R::store($testimonial);
+                $_SESSION['success'] = 'Отзыв добавлен';
+            }
+            redirect(ADMIN . '/testimonial');
+        }
+        $this->setMeta('Новый Отзыв');
+    }
+
     public function editAction()
     {
-        $testimonial_id = $this->getRequestID();
-        $testimonial = \R::getRow("SELECT * FROM testimonials WHERE id = ?", [$testimonial_id]);
-        if (!$testimonial){
-            throw new \Exception('Страница не найдена', 404);
+        if (!empty($_POST)){
+            $id = $this->getRequestID(false);
+            $testimonial = new Testimonial();
+            $data = $_POST;
+            $testimonial->load($data);
+            if (!$testimonial->validate($data)){
+                $testimonial->getErrors();
+                redirect();
+            }
+            if ($testimonial->update('testimonials', $id)){
+                $testimonial = \R::load('testimonials', $id);
+                \R::store($testimonial);
+                $_SESSION['success'] = 'Отзыв обновлён';
+            }
+            redirect(ADMIN . '/testimonial');
         }
-        $this->setMeta("Отзыв {$testimonial['name']}");
+        $id = $this->getRequestID();
+        $testimonial = \R::load('testimonials', $id);
+        $this->setMeta("Редактирование отзыва {$testimonial->name}");
         $this->set(compact('testimonial'));
     }
 

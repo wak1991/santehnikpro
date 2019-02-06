@@ -15,27 +15,28 @@
     <div class="row">
         <div class="col-md-12">
             <div class="box">
+                <form action="<?= ADMIN; ?>/slider/edit" method="post" data-toggle="validator">
                 <div class="box-body">
-                    <div class="form-group">
+                    <div class="form-group has-feedback">
                         <label>Имя</label>
-                        <input type="text" name="title" class="form-control" value="<?=$slider['title'];?>" placeholder="Введите имя">
+                        <input id="title" type="text" name="title" class="form-control" value="<?=$slider['title'];?>" placeholder="Введите имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Описание</label>
+                        <input id="description" type="text" name="description" class="form-control" value="<?=$slider['description'];?>" placeholder="Введите описание">
                     </div>
                     <div class="form-group">
                         <label>Сортировка</label>
-                        <input type="text" name="sort" class="form-control" value="<?=$slider['sort'];?>" placeholder="Установите сортировку">
+                        <input id="sort" type="text" name="sort" class="form-control" value="<?=$slider['sort'];?>" placeholder="Установите сортировку">
                     </div>
-                    <a href="<?=ADMIN;?>" class="btn btn-success">Сохранить</a>
-                    <a href="<?=ADMIN;?>/specialist/delete?id=<?=$slider['id'];?>" class="btn btn-danger delete">Удалить</a>
+                    <button type="submit" class="btn btn-success">Сохранить</button>
+                    <input type="hidden" name="id" value="<?= $slider->id; ?>">
+                    <a href="<?=ADMIN;?>/slider/delete?id=<?=$slider['id'];?>" class="btn btn-danger delete">Удалить</a>
                 </div>
+                </form>
             </div>
         </div>
     </div>
     <!-- /.row -->
 </section>
-<!-- /.content --><?php
-/**
- * Created by PhpStorm.
- * User: WAK
- * Date: 28.01.2019
- * Time: 21:37
- */
+<!-- /.content -->

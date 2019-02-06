@@ -4,7 +4,7 @@ namespace app\controllers\admin;
 
 
 use app\models\AppModel;
-use app\models\Page;
+use app\models\admin\Page;
 use ishop\App;
 
 class PageController extends AppController

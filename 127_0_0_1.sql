@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 28 2019 г., 23:15
+-- Время создания: Фев 07 2019 г., 00:13
 -- Версия сервера: 5.6.37
--- Версия PHP: 7.1.7
+-- Версия PHP: 7.0.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -103,7 +103,7 @@ INSERT INTO `pages` (`id`, `title`, `keywords`, `description`, `alias`, `parent_
 (4, 'Водопровод', '', '', 'vodoprovod', 0, 'Какой-то текст о водопроводе', '', 10),
 (5, 'Сантехника', '', '', 'santehnika', 3, 'Какой-то текст о сантехнике', '', 10),
 (6, 'Трубы', '', '', 'trybi', 4, 'Какой-то текст о трубах', '', 10),
-(7, 'Уголки', '', '', 'ugolki', 4, 'Какой-то текст о уголках', '', 10),
+(7, 'Уголки', '1', 'Описание тестового поста', 'ugolki', 4, 'Какой-то текст о уголках', '', 10),
 (8, 'Не сантехника', '', '', 'nesantehnika', 3, 'Какой-то текст о не сантехнике', '', 10),
 (9, 'Краны', '', '', 'krany', 5, 'Какой-то текст о кранах', '', 10),
 (10, 'Ванны', '', '', 'vanny', 5, 'Какой-то текст о ваннах', '', 10),
@@ -129,7 +129,7 @@ CREATE TABLE `sliders` (
 --
 
 INSERT INTO `sliders` (`id`, `title`, `img`, `sort`, `description`) VALUES
-(1, 'Первый слайдер', 'image1.jpg', 10, 'для слайдера <br>текст'),
+(1, 'Первый слайдер', 'image1.jpg', 10, 'from slider текст 2'),
 (2, 'Второй слайдер', 'image2.jpg', 30, 'from slider <br>текст 2'),
 (3, 'Третий слайдер', 'image3.jpg', 20, 'для слайдера <br>текст 3');
 
@@ -229,32 +229,32 @@ ALTER TABLE `testimonials`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `constants`
 --
 ALTER TABLE `constants`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT для таблицы `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT для таблицы `sliders`
 --
 ALTER TABLE `sliders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT для таблицы `specialists`
 --
 ALTER TABLE `specialists`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT для таблицы `testimonials`
 --
 ALTER TABLE `testimonials`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -3,6 +3,8 @@
 namespace app\controllers\admin;
 
 
+use app\models\admin\Specialist;
+
 class SpecialistController extends AppController
 {
     public function indexAction()
@@ -12,14 +14,47 @@ class SpecialistController extends AppController
         $this->set(compact('specialists'));
     }
 
+    public function addAction()
+    {
+        if (!empty($_POST)){
+            $specialist = new Specialist();
+            $data = $_POST;
+            $specialist->load($data);
+            if (!$specialist->validate($data)){
+                $specialist->getErrors();
+                redirect();
+            }
+            if ($id = $specialist->save('specialists')){
+                $specialist = \R::load('specialists', $id);
+                \R::store($specialist);
+                $_SESSION['success'] = 'Специалист добавлен';
+            }
+            redirect(ADMIN . '/specialist');
+        }
+        $this->setMeta('Новый Специалист');
+    }
+
     public function editAction()
     {
-        $specialist_id = $this->getRequestID();
-        $specialist = \R::getRow("SELECT * FROM specialists WHERE id = ?", [$specialist_id]);
-        if (!$specialist){
-            throw new \Exception('Страница не найдена', 404);
+        if (!empty($_POST)){
+            $id = $this->getRequestID(false);
+            $specialist = new Specialist();
+            $data = $_POST;
+            $specialist->load($data);
+            if (!$specialist->validate($data)){
+                $specialist->getErrors();
+                redirect();
+            }
+            if ($specialist->update('specialists', $id)){
+                $specialist = \R::load('specialists', $id);
+                \R::store($specialist);
+                $_SESSION['success'] = 'Слайдер обновлён';
+            }
+            redirect(ADMIN . '/specialist');
         }
-        $this->setMeta("Специалист {$specialist['name']}");
+        $id = $this->getRequestID();
+        $specialist = \R::load('specialists', $id);
+        $this->setMeta("Редактирование специалиста {$specialist->name}");
         $this->set(compact('specialist'));
     }
 

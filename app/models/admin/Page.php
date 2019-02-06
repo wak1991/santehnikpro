@@ -1,9 +1,11 @@
 <?php
 
-namespace app\models;
+namespace app\models\admin;
 
 
-class Category extends AppModel
+use app\models\AppModel;
+
+class Page extends AppModel
 {
     public $attributes = [
         'title' => '',
@@ -15,7 +17,7 @@ class Category extends AppModel
 
     public $rules = [
         'required' => [
-            ['title'],
+          ['title'],
         ]
     ];
 }

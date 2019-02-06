@@ -3,6 +3,8 @@
 namespace app\controllers\admin;
 
 
+use app\models\admin\Slider;
+
 class SliderController extends AppController
 {
     public function indexAction()
@@ -12,14 +14,47 @@ class SliderController extends AppController
         $this->set(compact('sliders'));
     }
 
+    public function addAction()
+    {
+        if (!empty($_POST)){
+            $slider = new Slider();
+            $data = $_POST;
+            $slider->load($data);
+            if (!$slider->validate($data)){
+                $slider->getErrors();
+                redirect();
+            }
+            if ($id = $slider->save('sliders')){
+                $slider = \R::load('sliders', $id);
+                \R::store($slider);
+                $_SESSION['success'] = 'Страница добавлена';
+            }
+            redirect(ADMIN . '/slider');
+        }
+        $this->setMeta('Новый слайдер');
+    }
+
     public function editAction()
     {
-        $slider_id = $this->getRequestID();
-        $slider = \R::getRow("SELECT * FROM sliders WHERE id = ?", [$slider_id]);
-        if (!$slider){
-            throw new \Exception('Страница не найдена', 404);
+        if (!empty($_POST)){
+            $id = $this->getRequestID(false);
+            $slider = new Slider();
+            $data = $_POST;
+            $slider->load($data);
+            if (!$slider->validate($data)){
+                $slider->getErrors();
+                redirect();
+            }
+            if ($slider->update('sliders', $id)){
+                $slider = \R::load('sliders', $id);
+                \R::store($slider);
+                $_SESSION['success'] = 'Слайдер обновлён';
+            }
+            redirect(ADMIN . '/slider');
         }
-        $this->setMeta("Слайдер {$slider['title']}");
+        $id = $this->getRequestID();
+        $slider = \R::load('sliders', $id);
+        $this->setMeta("Редактирование слайдера {$slider->title}");
         $this->set(compact('slider'));
     }
 

@@ -1,21 +1,22 @@
 <?php
 
-namespace app\models;
+namespace app\models\admin;
 
 
-class Page extends AppModel
+use app\models\AppModel;
+
+class Slider extends AppModel
 {
     public $attributes = [
         'title' => '',
-        'parent_id' => '',
-        'keywords' => '',
+        'img' => '',
+        'sort' => '',
         'description' => '',
-        'alias' => '',
     ];
 
     public $rules = [
         'required' => [
-          ['title'],
+            ['title'],
         ]
     ];
 }

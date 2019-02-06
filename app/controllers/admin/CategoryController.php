@@ -4,7 +4,7 @@ namespace app\controllers\admin;
 
 
 use app\models\AppModel;
-use app\models\Category;
+use app\models\admin\Category;
 use ishop\App;
 
 class CategoryController extends AppController
