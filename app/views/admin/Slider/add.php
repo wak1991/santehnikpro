@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="box">
-                <form action="<?= ADMIN; ?>/slider/add" method="post" data-toggle="validator">
+                <form action="<?= ADMIN; ?>/slider/add" method="post" data-toggle="validator" enctype="multipart/form-data">
                     <div class="box-body">
                         <div class="form-group has-feedback">
                             <label>Имя</label>
@@ -28,6 +28,10 @@
                         <div class="form-group">
                             <label>Сортировка</label>
                             <input id="sort" type="text" name="sort" class="form-control" placeholder="Установите сортировку">
+                        </div>
+                        <div class="form-group">
+                            <label>Картинка (Размер - 1920x595 пикселей)</label>
+                            <input id="img" type="file" name="img"?>
                         </div>
                         <button type="submit" class="btn btn-success">Сохранить</button>
                     </div>

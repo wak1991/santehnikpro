@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 07 2019 г., 00:13
+-- Время создания: Фев 10 2019 г., 22:11
 -- Версия сервера: 5.6.37
 -- Версия PHP: 7.0.21
 
@@ -181,6 +181,26 @@ INSERT INTO `testimonials` (`id`, `name`, `img`, `description`, `sort`) VALUES
 (2, 'Анастасия', '2.jpg', 'Менеджер нам сам перезвонил, все уточнил, договорились о времени доставки, и вот мы уже радуемся нашей новой мебели!', 0),
 (3, 'Тимати', '3.jpg', 'Спасибо за помощь с покупкой! Выбирали унитаз, консультанты помогли подобрать модель, которая очень нам понравилась.', 0);
 
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `login` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `role` enum('user','admin') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `user`
+--
+
+INSERT INTO `user` (`id`, `login`, `password`, `role`) VALUES
+(1, 'admin', '$2y$10$0kqC0gBV.1s.JpbTICh98.zLXI6k/xmEZWVlwYYsR2D2KnUTAgMp.', 'admin');
+
 --
 -- Индексы сохранённых таблиц
 --
@@ -222,6 +242,12 @@ ALTER TABLE `testimonials`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT для сохранённых таблиц
 --
 
@@ -234,7 +260,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT для таблицы `constants`
 --
 ALTER TABLE `constants`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT для таблицы `pages`
 --
@@ -244,17 +270,22 @@ ALTER TABLE `pages`
 -- AUTO_INCREMENT для таблицы `sliders`
 --
 ALTER TABLE `sliders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `specialists`
 --
 ALTER TABLE `specialists`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT для таблицы `testimonials`
 --
 ALTER TABLE `testimonials`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
+-- AUTO_INCREMENT для таблицы `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

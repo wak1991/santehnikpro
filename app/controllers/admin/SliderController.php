@@ -18,6 +18,7 @@ class SliderController extends AppController
     {
         if (!empty($_POST)){
             $slider = new Slider();
+            $slider->loadImg();
             $data = $_POST;
             $slider->load($data);
             if (!$slider->validate($data)){
@@ -27,7 +28,7 @@ class SliderController extends AppController
             if ($id = $slider->save('sliders')){
                 $slider = \R::load('sliders', $id);
                 \R::store($slider);
-                $_SESSION['success'] = 'Страница добавлена';
+                $_SESSION['success'] = 'Слайдер добавлен';
             }
             redirect(ADMIN . '/slider');
         }
@@ -37,6 +38,7 @@ class SliderController extends AppController
     public function editAction()
     {
         if (!empty($_POST)){
+            debug($_POST); die;
             $id = $this->getRequestID(false);
             $slider = new Slider();
             $data = $_POST;

@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="box">
-                <form action="<?= ADMIN; ?>/slider/edit" method="post" data-toggle="validator">
+                <form action="<?= ADMIN; ?>/slider/edit" method="post" data-toggle="validator" enctype="multipart/form-data">
                 <div class="box-body">
                     <div class="form-group has-feedback">
                         <label>Имя</label>
@@ -28,6 +28,11 @@
                     <div class="form-group">
                         <label>Сортировка</label>
                         <input id="sort" type="text" name="sort" class="form-control" value="<?=$slider['sort'];?>" placeholder="Установите сортировку">
+                    </div>
+                    <div class="form-group">
+                        <label>Картинка</label>
+                        <input id="img" type="file" name="img" value="<?=$slider['img'];?>">
+                        <img src="/img/slides/<?=$slider->img;?>" alt="" style="max-width: 150px;">
                     </div>
                     <button type="submit" class="btn btn-success">Сохранить</button>
                     <input type="hidden" name="id" value="<?= $slider->id; ?>">

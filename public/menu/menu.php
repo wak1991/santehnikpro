@@ -1,1 +1,1 @@
-<li data-tab-name="<?=$category['alias'];?>" class="active"><?=$category['title'];?></li>
+<li data-tab-name="<?=$category['alias'];?>"><?=$category['title'];?></li>
