@@ -29,10 +29,24 @@
                         <label>Сортировка</label>
                         <input id="sort" type="text" name="sort" class="form-control" value="<?=$slider['sort'];?>" placeholder="Установите сортировку">
                     </div>
-                    <div class="form-group">
-                        <label>Картинка</label>
-                        <input id="img" type="file" name="img" value="<?=$slider['img'];?>">
-                        <img src="/img/slides/<?=$slider->img;?>" alt="" style="max-width: 150px;">
+                    <div class="gorm-group">
+                        <div class="col-md-12">
+                            <div class="box box-primary box-solid file-upload">
+                                <div class="box-header">
+                                    <h3 class="box-title">Картинка</h3>
+                                </div>
+                                <div class="box-body">
+                                    <div id="single" class="btn btn-success" data-url="slider/add-image" data-name="single" data-folder="/img/slides/">Выбрать фото</div>
+                                    <p><small>Рекомендуемые размеры: 1920x595 пикселей</small></p>
+                                    <div class="single">
+                                        <img src="/img/slides/<?=$slider->img;?>" alt="" style="max-height: 150px;">
+                                    </div>
+                                </div>
+                                <div class="overlay">
+                                    <i class="fa fa-refresh fa-spin"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-success">Сохранить</button>
                     <input type="hidden" name="id" value="<?= $slider->id; ?>">

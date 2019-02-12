@@ -46,6 +46,29 @@
                             <label for="description">Описание</label>
                             <input type="text" name="description" value="<?= h($category->description); ?>" class="form-control" id="description" placeholder="Описание">
                         </div>
+                        <div class="form-group">
+                            <label>Сортировка</label>
+                            <input id="sort" type="text" name="sort" class="form-control" value="<?=$category['sort'];?>" placeholder="Установите сортировку">
+                        </div>
+                        <div class="gorm-group">
+                            <div class="col-md-12">
+                                <div class="box box-primary box-solid file-upload">
+                                    <div class="box-header">
+                                        <h3 class="box-title">Картинка</h3>
+                                    </div>
+                                    <div class="box-body">
+                                        <div id="single" class="btn btn-success" data-url="category/add-image" data-name="single" data-folder="/img/category/">Выбрать фото</div>
+                                        <p><small>Рекомендуемые размеры: 270x169 пикселей</small></p>
+                                        <div class="single">
+                                            <img src="/img/category/<?=$category->img;?>" alt="" style="max-height: 150px;">
+                                        </div>
+                                    </div>
+                                    <div class="overlay">
+                                        <i class="fa fa-refresh fa-spin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="box-footer">
                         <input type="hidden" name="id" value="<?= $category->id; ?>">

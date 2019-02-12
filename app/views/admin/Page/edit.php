@@ -46,6 +46,14 @@
                             <label for="description">Описание</label>
                             <input type="text" name="description" value="<?= h($page->description); ?>" class="form-control" id="description" placeholder="Описание">
                         </div>
+                        <div class="form-group">
+                            <label>Сортировка</label>
+                            <input id="sort" type="text" name="sort" class="form-control" value="<?=$page['sort'];?>" placeholder="Установите сортировку">
+                        </div>
+                        <div class="form-group">
+                            <label>Ссылка</label>
+                            <input id="url" type="text" name="url" class="form-control" value="<?=$page['url'];?>" placeholder="Ссылка на другую страницу">
+                        </div>
                     </div>
                     <div class="box-footer">
                         <input type="hidden" name="id" value="<?= $page->id; ?>">

@@ -13,6 +13,8 @@ class Page extends AppModel
         'keywords' => '',
         'description' => '',
         'alias' => '',
+        'url' => '',
+        'sort' => '',
     ];
 
     public $rules = [

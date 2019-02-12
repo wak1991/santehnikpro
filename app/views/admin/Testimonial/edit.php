@@ -29,6 +29,25 @@
                             <label>Сортировка</label>
                             <input id="sort" type="text" name="sort" class="form-control" value="<?=$testimonial['sort'];?>" placeholder="Установите сортировку">
                         </div>
+                        <div class="gorm-group">
+                            <div class="col-md-12">
+                                <div class="box box-primary box-solid file-upload">
+                                    <div class="box-header">
+                                        <h3 class="box-title">Картинка</h3>
+                                    </div>
+                                    <div class="box-body">
+                                        <div id="single" class="btn btn-success" data-url="testimonial/add-image" data-name="single" data-folder="/img/testimonial/">Выбрать фото</div>
+                                        <p><small>Рекомендуемые размеры: 124x163 пикселей</small></p>
+                                        <div class="single">
+                                            <img src="/img/testimonial/<?=$testimonial->img;?>" alt="" style="max-height: 150px;">
+                                        </div>
+                                    </div>
+                                    <div class="overlay">
+                                        <i class="fa fa-refresh fa-spin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <button type="submit" class="btn btn-success">Сохранить</button>
                         <input type="hidden" name="id" value="<?= $testimonial->id; ?>">
                         <a href="<?=ADMIN;?>/testimonial/delete?id=<?=$testimonial['id'];?>" class="btn btn-danger delete">Удалить</a>

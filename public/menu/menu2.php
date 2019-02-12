@@ -3,7 +3,7 @@
         <p><?=$category['description'];?></p>
         <a href="category/<?=$category['alias'];?>"><div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-                <img src="img/who-we-are/2.jpg" alt="">
+                <img src="img/category/<?=$category['img'];?>" alt="">
                 <ul>
                     <li><i class="fa fa-arrow-circle-o-right"></i>Подробнее</li>
                 </ul>

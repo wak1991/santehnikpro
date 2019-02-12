@@ -1,9 +1,9 @@
-a:2:{s:4:"data";s:1970:"<div id="montaj-trub">
+a:2:{s:4:"data";s:2059:"<div id="montazh-trub">
     <div class="col-lg-12 col-md-12 col-sm-12">
         <p>Проводим полный монтаж труб</p>
-        <a href="category/montaj-trub"><div class="row">
+        <a href="category/montazh-trub"><div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-                <img src="img/who-we-are/2.jpg" alt="">
+                <img src="img/category/0f8b24d6205d20265f38acdb74b39dd6.png" alt="">
                 <ul>
                     <li><i class="fa fa-arrow-circle-o-right"></i>Подробнее</li>
                 </ul>
@@ -18,7 +18,7 @@ a:2:{s:4:"data";s:1970:"<div id="montaj-trub">
         <p>Полная разводка</p>
         <a href="category/razvodka-trub"><div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-                <img src="img/who-we-are/2.jpg" alt="">
+                <img src="img/category/0f8b24d6205d20265f38acdb74b39dd6.png" alt="">
                 <ul>
                     <li><i class="fa fa-arrow-circle-o-right"></i>Подробнее</li>
                 </ul>
@@ -33,7 +33,7 @@ a:2:{s:4:"data";s:1970:"<div id="montaj-trub">
         <p>Описание про отопление</p>
         <a href="category/otoplenie"><div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
-                <img src="img/who-we-are/2.jpg" alt="">
+                <img src="img/category/0f8b24d6205d20265f38acdb74b39dd6.png" alt="">
                 <ul>
                     <li><i class="fa fa-arrow-circle-o-right"></i>Подробнее</li>
                 </ul>
@@ -43,4 +43,4 @@ a:2:{s:4:"data";s:1970:"<div id="montaj-trub">
             <img src="/img/service-we-provide/2.png" alt="">
         </div>
     </div>
-</div>";s:8:"end_time";i:1549829439;}
+</div>";s:8:"end_time";i:1549976168;}

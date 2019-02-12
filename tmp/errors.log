@@ -770,3 +770,65 @@
 =====================
 [2019-02-10 22:08:01] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
 =====================
+[2019-02-12 08:14:59] Текст ошибки: Нет соединения с БД | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Db.php | Строка: 16
+=====================
+[2019-02-12 09:28:36] Текст ошибки: Метод app\controllers\admin\SliderController::addImageAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-02-12 09:29:42] Текст ошибки: Метод app\controllers\admin\SliderController::addImageAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-02-12 10:06:34] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 10:08:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 10:29:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 11:30:07] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 11:47:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 11:47:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 11:47:33] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 11:47:41] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 11:54:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 12:03:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 12:07:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 12:28:26] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-02-12 13:31:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 13:32:45] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 13:44:39] Текст ошибки: Контроллер app\controllers\ImgController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-02-12 13:45:51] Текст ошибки: Метод app\controllers\admin\CategoryController::addImageAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-02-12 13:46:04] Текст ошибки: Контроллер app\controllers\ImgController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-02-12 13:49:43] Текст ошибки: Контроллер app\controllers\ImgController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-02-12 13:53:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\admin\AppController.php | Строка: 33
+=====================
+[2019-02-12 13:54:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\admin\AppController.php | Строка: 33
+=====================
+[2019-02-12 14:13:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 14:13:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\admin\AppController.php | Строка: 33
+=====================
+[2019-02-12 14:13:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 14:16:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 14:16:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\admin\AppController.php | Строка: 33
+=====================
+[2019-02-12 14:16:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 14:21:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-02-12 14:52:01] Текст ошибки: Контроллер app\controllers\CatalogController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================

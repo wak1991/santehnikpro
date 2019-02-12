@@ -14,12 +14,27 @@ class CategoryController extends AppController
         $this->setMeta('Список категорий');
     }
 
+    public function addImageAction()
+    {
+        if (isset($_GET['upload'])){
+            if ($_POST['name'] == 'single'){
+                $wmax = 270;
+                $hmax = 169;
+                $folder = '/img/category/';
+            }
+            $name = $_POST['name'];
+            $category = new Category();
+            $category->uploadImg($name, $wmax, $hmax, $folder);
+        }
+    }
+
     public function addAction()
     {
         if (!empty($_POST)){
             $category = new Category();
             $data = $_POST;
             $category->load($data);
+            $category->getImg();
             if (!$category->validate($data)){
                 $category->getErrors();
                 redirect();
@@ -43,6 +58,7 @@ class CategoryController extends AppController
             $category = new Category();
             $data = $_POST;
             $category->load($data);
+            $category->getImg();
             if (!$category->validate($data)){
                 $category->getErrors();
                 redirect();

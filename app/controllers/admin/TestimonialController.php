@@ -14,12 +14,27 @@ class TestimonialController extends AppController
         $this->set(compact('testimonials'));
     }
 
+    public function addImageAction()
+    {
+        if (isset($_GET['upload'])){
+            if ($_POST['name'] == 'single'){
+                $wmax = 124;
+                $hmax = 163;
+                $folder = '/img/testimonial/';
+            }
+            $name = $_POST['name'];
+            $testimonial = new Testimonial();
+            $testimonial->uploadImg($name, $wmax, $hmax, $folder);
+        }
+    }
+
     public function addAction()
     {
         if (!empty($_POST)){
             $testimonial = new Testimonial();
             $data = $_POST;
             $testimonial->load($data);
+            $testimonial->getImg();
             if (!$testimonial->validate($data)){
                 $testimonial->getErrors();
                 redirect();
@@ -41,6 +56,7 @@ class TestimonialController extends AppController
             $testimonial = new Testimonial();
             $data = $_POST;
             $testimonial->load($data);
+            $testimonial->getImg();
             if (!$testimonial->validate($data)){
                 $testimonial->getErrors();
                 redirect();

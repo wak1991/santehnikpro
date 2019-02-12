@@ -4,6 +4,7 @@ namespace app\controllers\admin;
 
 
 use app\models\admin\Specialist;
+use ishop\App;
 
 class SpecialistController extends AppController
 {
@@ -14,12 +15,27 @@ class SpecialistController extends AppController
         $this->set(compact('specialists'));
     }
 
+    public function addImageAction()
+    {
+        if (isset($_GET['upload'])){
+            if ($_POST['name'] == 'single'){
+                $wmax = 214;
+                $hmax = 298;
+                $folder = '/img/our-specialist/';
+            }
+            $name = $_POST['name'];
+            $specialist = new Specialist();
+            $specialist->uploadImg($name, $wmax, $hmax, $folder);
+        }
+    }
+
     public function addAction()
     {
         if (!empty($_POST)){
             $specialist = new Specialist();
             $data = $_POST;
             $specialist->load($data);
+            $specialist->getImg();
             if (!$specialist->validate($data)){
                 $specialist->getErrors();
                 redirect();
@@ -41,6 +57,7 @@ class SpecialistController extends AppController
             $specialist = new Specialist();
             $data = $_POST;
             $specialist->load($data);
+            $specialist->getImg();
             if (!$specialist->validate($data)){
                 $specialist->getErrors();
                 redirect();

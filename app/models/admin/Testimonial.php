@@ -9,7 +9,6 @@ class Testimonial extends AppModel
 {
     public $attributes = [
         'name' => '',
-        'img' => '',
         'sort' => '',
         'description' => '',
     ];

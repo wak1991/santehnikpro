@@ -46,6 +46,14 @@
                             <label for="description">Описание</label>
                             <input type="text" name="description" class="form-control" id="description" placeholder="Описание">
                         </div>
+                        <div class="form-group">
+                            <label>Сортировка</label>
+                            <input id="sort" type="text" name="sort" class="form-control" placeholder="Установите сортировку">
+                        </div>
+                        <div class="form-group">
+                            <label>Ссылка</label>
+                            <input id="url" type="text" name="url" class="form-control" placeholder="Ссылка на другую страницу">
+                        </div>
                     </div>
                     <div class="box-footer">
                         <button type="submit" class="btn btn-success">Сохранить</button>

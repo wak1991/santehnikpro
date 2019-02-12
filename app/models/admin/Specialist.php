@@ -9,7 +9,6 @@ class Specialist extends AppModel
 {
     public $attributes = [
         'name' => '',
-        'img' => '',
         'sort' => '',
         'specialty' => '',
     ];
