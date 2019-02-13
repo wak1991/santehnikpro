@@ -29,6 +29,9 @@
                             <label>Сортировка</label>
                             <input id="sort" type="text" name="sort" class="form-control" placeholder="Установите сортировку">
                         </div>
+                        <div class="form-group">
+                            <textarea id="content_editor" name="content"></textarea>
+                        </div>
                         <button type="submit" class="btn btn-success">Сохранить</button>
                     </div>
                 </form>

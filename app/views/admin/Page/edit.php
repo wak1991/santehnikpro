@@ -54,6 +54,9 @@
                             <label>Ссылка</label>
                             <input id="url" type="text" name="url" class="form-control" value="<?=$page['url'];?>" placeholder="Ссылка на другую страницу">
                         </div>
+                        <div class="form-group">
+                            <textarea id="content_editor" name="content"><?=$page['text'];?></textarea>
+                        </div>
                     </div>
                     <div class="box-footer">
                         <input type="hidden" name="id" value="<?= $page->id; ?>">

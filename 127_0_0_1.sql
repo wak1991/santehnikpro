@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 12 2019 г., 14:58
+-- Время создания: Фев 14 2019 г., 01:01
 -- Версия сервера: 5.6.37
--- Версия PHP: 5.6.31
+-- Версия PHP: 7.0.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -35,7 +35,8 @@ CREATE TABLE `category` (
   `title` varchar(255) NOT NULL,
   `keywords` varchar(255) NOT NULL,
   `alias` varchar(255) NOT NULL,
-  `description` text NOT NULL,
+  `description` varchar(255) NOT NULL,
+  `text` text NOT NULL,
   `parent_id` int(10) NOT NULL DEFAULT '0',
   `img` varchar(255) NOT NULL,
   `sort` int(11) NOT NULL DEFAULT '0'
@@ -45,10 +46,10 @@ CREATE TABLE `category` (
 -- Дамп данных таблицы `category`
 --
 
-INSERT INTO `category` (`id`, `title`, `keywords`, `alias`, `description`, `parent_id`, `img`, `sort`) VALUES
-(1, 'Монтаж труб', 'ggfgfd', 'montazh-trub', 'Проводим полный монтаж труб', 0, '0f8b24d6205d20265f38acdb74b39dd6.png', 0),
-(2, 'Разводка труб', '', 'razvodka-trub', 'Полная разводка', 0, '0f8b24d6205d20265f38acdb74b39dd6.png', 0),
-(3, 'Отопление', '', 'otoplenie', 'Описание про отопление', 0, '0f8b24d6205d20265f38acdb74b39dd6.png', 0);
+INSERT INTO `category` (`id`, `title`, `keywords`, `alias`, `description`, `text`, `parent_id`, `img`, `sort`) VALUES
+(1, 'Монтаж труб', 'ggfgfd', 'montazh-trub', 'Проводим полный монтаж труб', '', 0, '0f8b24d6205d20265f38acdb74b39dd6.png', 0),
+(2, 'Разводка труб', '', 'razvodka-trub', 'Полная разводка', '', 0, '0f8b24d6205d20265f38acdb74b39dd6.png', 0),
+(3, 'Отопление', '', 'otoplenie', 'Описание про отопление', '', 0, '0f8b24d6205d20265f38acdb74b39dd6.png', 0);
 
 -- --------------------------------------------------------
 
@@ -72,7 +73,7 @@ INSERT INTO `constants` (`id`, `name`, `description`, `value`, `sort`) VALUES
 (1, 'social', 'Соц. сети', '                <ul>\r\n                    <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>\r\n                </ul>', 0),
 (2, 'contact_info', 'Контактная информация', '                <ul>\r\n                    <li><a href=\"tel:+375444540444\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-phone\"></i>  +375 (44) 454-04-44 </a></li>\r\n                    <li><a href=\"mailto:santehkostya@mail.ru\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-envelope-o\"></i>santehkostya@mail.ru</a></li>\r\n                </ul>', 0),
 (3, 'text_slider', 'Текст под слайдером', '<p>We\'re on call 24/7 to react promptly to your <b>plumbing emergencies.</b></p>', 0),
-(4, 'our_proects', 'Наши проекты', '        <div class=\"section-title\">\r\n            <h1>Выполненые работы</h1>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-12 col-md-12 masonary-gallery\">\r\n                <div class=\"masonary-item width-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/1.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"img/our-projects/1.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/2.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"img/our-projects/2.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-1 height-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/3.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"img/our-projects/3.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/4.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"img/our-projects/4.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-2\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/5.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"img/our-projects/5.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/6.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"img/our-projects/6.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n\r\n            </div>\r\n\r\n        </div>\r\n        <div class=\"view-all-btn\"><a href=\"project-v1.html\" class=\"view-all hvr-bounce-to-right\">посмотреть все</a></div>', 0);
+(4, 'our_proects', 'Наши проекты', '        <div class=\"section-title\">\r\n            <h1>Выполненые работы</h1>\r\n        </div>\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-12 col-md-12 masonary-gallery\">\r\n                <div class=\"masonary-item width-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/1.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"/img/our-projects/1.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/2.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"/img/our-projects/2.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-1 height-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/3.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"/img/our-projects/3.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/4.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"/img/our-projects/4.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-2\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/5.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"/img/our-projects/5.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n                <div class=\"masonary-item width-1\">\r\n                    <a class=\"fancybox\" href=\"img/our-projects/6.jpg\"><div class=\"img-wrap\">\r\n                            <img src=\"/img/our-projects/6.jpg\" alt=\"\">\r\n                            <div class=\"content-wrap\">\r\n                                <div class=\"border\">\r\n                                    <div class=\"content\">\r\n                                        <h4>Kitchken Maintance</h4>\r\n                                        <span>Pipe Leakages Fixed</span>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div></a>\r\n                </div>\r\n\r\n            </div>\r\n\r\n        </div>\r\n        <div class=\"view-all-btn\"><a href=\"project-v1.html\" class=\"view-all hvr-bounce-to-right\">посмотреть все</a></div>', 0);
 
 -- --------------------------------------------------------
 
@@ -255,7 +256,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `constants`
 --
@@ -265,7 +266,7 @@ ALTER TABLE `constants`
 -- AUTO_INCREMENT для таблицы `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT для таблицы `sliders`
 --
@@ -275,12 +276,12 @@ ALTER TABLE `sliders`
 -- AUTO_INCREMENT для таблицы `specialists`
 --
 ALTER TABLE `specialists`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT для таблицы `testimonials`
 --
 ALTER TABLE `testimonials`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `user`
 --

@@ -11,6 +11,7 @@ class Constant extends AppModel
         'name' => '',
         'sort' => '',
         'description' => '',
+        'value' => '',
     ];
 
     public $rules = [

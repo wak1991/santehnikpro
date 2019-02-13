@@ -14,6 +14,7 @@ class Category extends AppModel
         'description' => '',
         'alias' => '',
         'sort' => '',
+        'text' => '',
     ];
 
     public $rules = [

@@ -1,3 +1,34 @@
+<!-- TinyMCE -->
+tinyMCE.init ({
+    mode : "exact",
+    elements: "content_editor",
+    extended_valid_elements : "img[*],a[*],ul[*],li[*],i[*]",
+    plugins: [
+        "advlist autolink link image lists charmap print preview hr anchor pagebreak",
+        "searchreplace wordcount visualblocks visualchars insertdatetime media nonbreaking",
+        "table contextmenu directionality emoticons paste textcolor  code",
+    ],
+    toolbar1: "undo redo | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | styleselect",
+    toolbar2: "| responsivefilemanager | link unlink anchor | image media | forecolor backcolor  | print preview code",
+
+    file_browser_callback: function(field, url, type, win) {
+        tinyMCE.activeEditor.windowManager.open({
+            file: path + '/adminlte/bower_components/kcfinder/browse.php?opener=tinymce4&field=' + field + '&type=' + type,
+            title: 'KCFinder',
+            width: 700,
+            height: 500,
+            inline: true,
+            close_previous: false
+        }, {
+            window: win,
+            input: field
+        });
+        return false;
+    },
+    content_css : "/css/style.css",
+});
+<!-- /TinyMCE -->
+
 $('.delete').click(function(){
    var res = confirm('Вы уверены, что хотите удалить?');
    if(!res) return false;

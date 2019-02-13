@@ -54,6 +54,9 @@
                             <label>Ссылка</label>
                             <input id="url" type="text" name="url" class="form-control" placeholder="Ссылка на другую страницу">
                         </div>
+                        <div class="form-group">
+                            <textarea id="content_editor" name="content"></textarea>
+                        </div>
                     </div>
                     <div class="box-footer">
                         <button type="submit" class="btn btn-success">Сохранить</button>

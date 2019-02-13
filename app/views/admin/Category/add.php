@@ -50,6 +50,9 @@
                             <label>Сортировка</label>
                             <input id="sort" type="text" name="sort" class="form-control" placeholder="Установите сортировку">
                         </div>
+                        <div class="form-group">
+                            <textarea id="content_editor" name="content"></textarea>
+                        </div>
                         <div class="gorm-group">
                             <div class="col-md-12">
                                 <div class="box box-primary box-solid file-upload">

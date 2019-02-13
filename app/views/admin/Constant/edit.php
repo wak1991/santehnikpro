@@ -29,6 +29,9 @@
                             <label>Сортировка</label>
                             <input id="sort" type="text" name="sort" class="form-control" value="<?=$constant['sort'];?>" placeholder="Установите сортировку">
                         </div>
+                        <div class="form-group">
+                            <textarea id="content_editor" name="content"><?=$constant['value'];?></textarea>
+                        </div>
                         <button type="submit" class="btn btn-success">Сохранить</button>
                         <input type="hidden" name="id" value="<?= $constant->id; ?>">
                         <a href="<?=ADMIN;?>/constant/delete?id=<?=$constant['id'];?>" class="btn btn-danger delete">Удалить</a>
