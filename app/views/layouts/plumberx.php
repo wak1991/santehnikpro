@@ -89,7 +89,7 @@
             <div class="col-lg-12 col-md-12">
                 <div class="request-for-qoute-wrap"><a href="mailto:santehkostya@mail.ru" class="request-for-qoute wow slideInDown hvr-bounce-to-right">Ответим на все Ваши вопросы</a></div>
                 <nav class="footer-menu">
-                    <button class="footer-nav-toggler hvr-bounce-to-right">Footer Menu <i class="fa fa-bars"></i></button>
+                    <button class="footer-nav-toggler hvr-bounce-to-right">Меню <i class="fa fa-bars"></i></button>
                     <?php new \app\widgets\menu\Menu([
                         'cacheKey' => 'footer',
                         'table' => 'pages',
@@ -108,11 +108,11 @@
         <div class="row">
             <!-- .copyright -->
             <div class="copyright pull-left">
-                <p>Copyright &copy; Plumberx 2015. All rights reserved. </p>
+                <p>Created by: Anatol & Company</p>
             </div> <!-- /.copyright -->
             <!-- .credit -->
             <div class="credit pull-right">
-                <p>Created by: DesignArc</p>
+                <p><?= date("Y"); ?></p>
             </div> <!-- /.credit -->
         </div>
     </div>
@@ -136,11 +136,13 @@
 <script src="js/my.js"></script>
 
 <?php
-$logs = R::getDatabaseAdapter()
-->getDatabase()
-->getLogger();
+if (DEBUG) {
+    $logs = R::getDatabaseAdapter()
+        ->getDatabase()
+        ->getLogger();
 
-debug( $logs->grep( 'SELECT' ) );
+    debug($logs->grep('SELECT'));
+}
 ?>
 
 </body>

@@ -158,10 +158,9 @@
     <!-- /.content-wrapper -->
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Version</b> 2.4.0
+            <p><?= date("Y"); ?></p>
         </div>
-        <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
-        reserved.
+        <p><strong>Created by:</strong> Anatol & Company</p>
     </footer>
 
     <!-- Control Sidebar -->
@@ -409,11 +408,13 @@
 <script src="my.js"></script>
 
 <?php
-$logs = R::getDatabaseAdapter()
-    ->getDatabase()
-    ->getLogger();
+if (DEBUG){
+    $logs = R::getDatabaseAdapter()
+        ->getDatabase()
+        ->getLogger();
 
-debug( $logs->grep( 'SELECT' ) );
+    debug( $logs->grep( 'SELECT' ) );
+}
 ?>
 
 </body>

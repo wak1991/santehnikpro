@@ -1396,3 +1396,17 @@
 =====================
 [2019-02-14 00:30:56] Текст ошибки: Контроллер app\controllers\PublikController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
 =====================
+[2019-03-19 22:41:00] Текст ошибки: Не найден вид C:\OSPanel\domains\santehnikpro/app/views/admin\User/login-admin.php | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\base\View.php | Строка: 41
+=====================
+[2019-03-20 19:32:17] Текст ошибки: Call to a member function grep() on null | Файл: C:\OSPanel\domains\santehnikpro\app\views\layouts\plumberx.php | Строка: 143
+=====================
+[2019-03-20 19:32:25] Текст ошибки: Call to a member function grep() on null | Файл: C:\OSPanel\domains\santehnikpro\app\views\layouts\admin.php | Строка: 416
+=====================
+[2019-03-20 19:46:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-03-20 19:46:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-03-20 19:47:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-03-20 19:47:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
