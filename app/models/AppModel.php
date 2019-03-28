@@ -180,5 +180,4 @@ class AppModel extends Model
         }
         imagedestroy($newImg);
     }
-
 }

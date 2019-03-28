@@ -20,6 +20,7 @@ class PageController extends AppController
             $page = new Page();
             $data = $_POST;
             $page->load($data);
+            $page->attributes['form'] = $page->attributes['form'] ? '1' : '0';
             if (!$page->validate($data)){
                 $page->getErrors();
                 redirect();
@@ -43,6 +44,7 @@ class PageController extends AppController
             $page = new Page();
             $data = $_POST;
             $page->load($data);
+            $page->attributes['form'] = $page->attributes['form'] ? '1' : '0';
             if (!$page->validate($data)){
                 $page->getErrors();
                 redirect();

@@ -3,7 +3,7 @@ a:2:{s:4:"data";s:1005:"<li >
     </li><li >
     <a href="page/o-kompanii">О компании</a>
     </li><li >
-    <a href="page/contacty">Контакты</a>
+    <a href="page/kontakty">Контакты</a>
     </li><li class="dropdown">
     <a href="page/uslugi">Услуги</a>
             <ul class="submenu">
@@ -28,4 +28,4 @@ a:2:{s:4:"data";s:1005:"<li >
     </li><li >
     <a href="page/ugolki">Уголки</a>
     </li>        </ul>
-    </li>";s:8:"end_time";i:1553103111;}
+    </li>";s:8:"end_time";i:1553765746;}

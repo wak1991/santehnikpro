@@ -55,6 +55,10 @@
                             <input id="url" type="text" name="url" class="form-control" placeholder="Ссылка на другую страницу">
                         </div>
                         <div class="form-group">
+                            <label>Форма обратной связи</label>
+                            <p><input id="form" type="checkbox" name="form"></p>
+                        </div>
+                        <div class="form-group">
                             <textarea id="content_editor" name="content"></textarea>
                         </div>
                     </div>
