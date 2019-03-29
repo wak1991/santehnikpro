@@ -144,6 +144,6 @@ if (DEBUG) {
     debug($logs->grep('SELECT'));
 }
 ?>
-
+<?php new \app\widgets\Scripts\Scripts();?>
 </body>
 </html>

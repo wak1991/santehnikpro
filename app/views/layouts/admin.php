@@ -132,6 +132,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="<?= ADMIN ?>/script">
+                        <i class="fa fa-floppy-o"></i> <span>Скрипты</span>
+                    </a>
+                </li>
+                <li>
                     <a href="<?= ADMIN ?>/cache">
                         <i class="fa fa-clock-o "></i> <span>Очистить кэш</span>
                     </a>

@@ -27,7 +27,7 @@ class ConstantController extends AppController
             if ($id = $constant->save('constants')){
                 $constant = \R::load('constants', $id);
                 \R::store($constant);
-                $_SESSION['success'] = 'Константа добавлен';
+                $_SESSION['success'] = 'Константа добавлена';
             }
             redirect(ADMIN . '/constant');
         }
