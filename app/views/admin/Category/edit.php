@@ -51,7 +51,7 @@
                             <input id="sort" type="text" name="sort" class="form-control" value="<?=$category['sort'];?>" placeholder="Установите сортировку">
                         </div>
                         <div class="form-group">
-                            <textarea id="content_editor" name="content"><?=$category['text'];?></textarea>
+                            <textarea id="content_editor" name="text"><?=$category['text'];?></textarea>
                         </div>
                         <div class="gorm-group">
                             <div class="col-md-12">

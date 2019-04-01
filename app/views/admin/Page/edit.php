@@ -59,7 +59,7 @@
                             <p><input id="form" type="checkbox" name="form"<?=$page->form ? ' checked' : null;?>></p>
                         </div>
                         <div class="form-group">
-                            <textarea id="content_editor" name="content"><?=$page['text'];?></textarea>
+                            <textarea id="content_editor" name="text"><?=$page['text'];?></textarea>
                         </div>
                     </div>
                     <div class="box-footer">

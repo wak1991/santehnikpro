@@ -24,8 +24,8 @@ a:2:{s:4:"data";s:1005:"<li >
     <a href="page/vodoprovod">Водопровод</a>
             <ul class="submenu">
             <li >
-    <a href="page/trybi">Трубы</a>
+    <a href="page/truby">Трубы</a>
     </li><li >
     <a href="page/ugolki">Уголки</a>
     </li>        </ul>
-    </li>";s:8:"end_time";i:1553851809;}
+    </li>";s:8:"end_time";i:1554123613;}

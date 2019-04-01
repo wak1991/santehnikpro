@@ -54,7 +54,7 @@ class ConstantController extends AppController
         }
         $id = $this->getRequestID();
         $constant = \R::load('constants', $id);
-        $this->setMeta("Редактирование отзыва {$constant->name}");
+        $this->setMeta("Редактирование константы {$constant->name}");
         $this->set(compact('constant'));
     }
 

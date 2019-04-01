@@ -30,7 +30,7 @@
                             <input id="sort" type="text" name="sort" class="form-control" placeholder="Установите сортировку">
                         </div>
                         <div class="form-group">
-                            <textarea id="content_editor" name="content"></textarea>
+                            <textarea id="content_editor" name="value"></textarea>
                         </div>
                         <button type="submit" class="btn btn-success">Сохранить</button>
                     </div>

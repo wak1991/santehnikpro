@@ -137,6 +137,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="<?= ADMIN ?>/mail">
+                        <i class="fa fa-envelope"></i> <span>Письма с сайта</span>
+                    </a>
+                </li>
+                <li>
                     <a href="<?= ADMIN ?>/cache">
                         <i class="fa fa-clock-o "></i> <span>Очистить кэш</span>
                     </a>

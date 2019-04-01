@@ -5,27 +5,25 @@ namespace app\controllers;
 
 use app\models\Mail;
 
-class MailController
+class MailController extends AppController
 {
-    public function signupAction()
+    public function mailAction()
     {
         if (!empty($_POST)){
-            $user = new Mail();
+            $mail = new Mail();
             $data = $_POST;
-            $user->load($data);
-            if (!$user->validate($data) || !$user->checkUnique()){
-                $user->getErrors();
+            $mail->load($data);
+            if (!$mail->validate($data)){
+                $mail->getErrors();
                 $_SESSION['form_data'] = $data;
             }else{
-                $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
-                if ($user->save('user')){
-                    $_SESSION['success'] = 'Пользователь зарегистрирован';
+                if ($mail->save('mails')){
+                    $_SESSION['mail']['success'] = 'Письмо отправлено';
                 }else{
-                    $_SESSION['error'] = 'Ошибка';
+                    $_SESSION['mail']['error'] = 'Ошибка';
                 }
             }
-            redirect();
+//            redirect();
         }
-        $this->setMeta('Регистрация');
     }
 }

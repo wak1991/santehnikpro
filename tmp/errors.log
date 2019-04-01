@@ -1768,3 +1768,293 @@
 =====================
 [2019-03-29 10:53:34] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'santehnikpro.scripts' doesn't exist | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
 =====================
+[2019-04-01 10:16:40] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-01 10:41:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:41:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:41:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:41:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:41:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:41:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:41:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:21] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:22] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:22] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:22] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:22] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:22] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:29] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:29] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:29] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:29] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:29] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:29] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:36] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:36] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:36] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:36] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:36] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:36] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:37] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:37] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:37] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:37] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:37] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:37] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:41] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:41] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:41] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:41] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:43] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:43] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:42:50] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:43:05] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:05] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:05] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:05] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:05] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:05] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:18] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:19] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:20] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:20] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:28] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:28] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:28] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:28] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:28] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:28] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:38] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:38] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:38] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:38] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:38] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:38] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:43] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:43:43] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:43] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:43] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:43] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:45] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:43:45] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:45] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:45] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:45] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:45] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:43:48] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:48] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:48] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:48] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:48] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:43:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:44:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:44:45] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:45:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:45:06] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:46:31] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:46:31] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:46:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:46:31] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:46:31] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:46:31] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:50:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 10:50:47] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:47] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:47] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:47] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:50:47] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:10] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:10] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:10] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:10] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:10] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:10] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:12] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:12] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:12] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:12] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:12] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 10:51:12] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 13:52:28] Текст ошибки: Контроллер app\controllers\admin\MailsController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 13:52:55] Текст ошибки: Контроллер app\controllers\admin\MailsController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 13:54:02] Текст ошибки: Контроллер app\controllers\admin\MailController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-01 13:55:35] Текст ошибки: Метод app\controllers\admin\MailController::indexAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-01 13:58:06] Текст ошибки: Метод app\controllers\admin\MailController::indexAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-01 13:58:09] Текст ошибки: Метод app\controllers\admin\MailController::indexAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-01 13:58:23] Текст ошибки: Не найден вид C:\OSPanel\domains\santehnikpro/app/views/admin\Mail/index.php | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\base\View.php | Строка: 41
+=====================
+[2019-04-01 14:50:40] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'message' in 'field list' | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-04-01 14:52:11] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'message' in 'field list' | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-04-01 14:52:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 14:53:35] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 14:54:27] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'message' in 'field list' | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-04-01 14:55:51] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'field list' | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-01 15:14:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================

@@ -13,7 +13,7 @@ class Mail extends AppModel
         'name' => '',
         'email' => '',
         'phone' => '',
-        'message' => '',
+        'content' => '',
     ];
 
     public static function mail($email)

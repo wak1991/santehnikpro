@@ -30,7 +30,7 @@
                             <input id="sort" type="text" name="sort" class="form-control" value="<?=$constant['sort'];?>" placeholder="Установите сортировку">
                         </div>
                         <div class="form-group">
-                            <textarea id="content_editor" name="content"><?=$constant['value'];?></textarea>
+                            <textarea id="content_editor" name="value"><?=$constant['value'];?></textarea>
                         </div>
                         <button type="submit" class="btn btn-success">Сохранить</button>
                         <input type="hidden" name="id" value="<?= $constant->id; ?>">

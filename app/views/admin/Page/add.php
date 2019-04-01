@@ -59,7 +59,7 @@
                             <p><input id="form" type="checkbox" name="form"></p>
                         </div>
                         <div class="form-group">
-                            <textarea id="content_editor" name="content"></textarea>
+                            <textarea id="content_editor" name="text"></textarea>
                         </div>
                     </div>
                     <div class="box-footer">
