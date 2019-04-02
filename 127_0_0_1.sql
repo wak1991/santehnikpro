@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 01 2019 г., 10:59
+-- Время создания: Апр 02 2019 г., 14:05
 -- Версия сервера: 5.6.37
 -- Версия PHP: 5.6.31
 
@@ -72,9 +72,23 @@ CREATE TABLE `constants` (
 
 INSERT INTO `constants` (`id`, `name`, `description`, `value`, `sort`) VALUES
 (1, 'social', 'Соц. сети', '                <ul>\r\n                    <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>\r\n                </ul>', 0),
-(2, 'contact_info', 'Контактная информация', '<ul>\r\n<li><a href=\"tel:+375444540444\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-phone\"></i> +375 (44) 454-04-44 </a></li>\r\n<li><a href=\"mailto:santehkostya@mail.ru\" class=\"hvr-bounce-to-bottom\">santehkostya@mail.ru</a></li>\r\n</ul>', 0),
+(2, 'contact_info', 'Контактная информация', '<ul>\r\n<li><a href=\"tel:+375444540444\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-phone\"></i>+375 (44) 454-04-44</a></li>\r\n<li><a href=\"mailto:santehkostya@mail.ru\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-envelope-o\"></i>santehkostya@mail.ru</a></li>\r\n</ul>', 0),
 (3, 'text_slider', 'Текст под слайдером', '<p>We\'re on call 24/7 to react promptly to your <b>plumbing emergencies.</b></p>', 0),
 (4, 'our_proects', 'Наши проекты', '<div class=\"section-title\">\r\n<h1>Выполненые работы</h1>\r\n</div>\r\n<div class=\"row\">\r\n<div class=\"col-lg-12 col-md-12 masonary-gallery\">\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/1.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/2.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1 height-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/3.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/4.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-2\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/5.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/6.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"view-all-btn\"><a href=\"project-v1.html\" class=\"view-all hvr-bounce-to-right\">посмотреть все</a></div>', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `mails`
+--
+
+CREATE TABLE `mails` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `phone` varchar(255) NOT NULL,
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -131,7 +145,6 @@ CREATE TABLE `scripts` (
 --
 
 INSERT INTO `scripts` (`id`, `name`, `value`, `sort`) VALUES
-(2, 'Метрика', '<script type=\"text/javascript\">Метрика</script>', 10),
 (3, 'Google', '<script type=\"text/javascript\">Google</script>', 20);
 
 -- --------------------------------------------------------
@@ -242,6 +255,12 @@ ALTER TABLE `constants`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `mails`
+--
+ALTER TABLE `mails`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `pages`
 --
 ALTER TABLE `pages`
@@ -292,6 +311,11 @@ ALTER TABLE `category`
 ALTER TABLE `constants`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
+-- AUTO_INCREMENT для таблицы `mails`
+--
+ALTER TABLE `mails`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
 -- AUTO_INCREMENT для таблицы `pages`
 --
 ALTER TABLE `pages`
@@ -300,7 +324,7 @@ ALTER TABLE `pages`
 -- AUTO_INCREMENT для таблицы `scripts`
 --
 ALTER TABLE `scripts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `sliders`
 --

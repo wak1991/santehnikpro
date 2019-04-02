@@ -351,10 +351,10 @@
 						required: true,
 						email: true
 					},
-					message: {
+					content: {
 						required: true
 					},
-					subject: {
+					phone: {
 						required: true
 					}
 				},

@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                <form action="mail/mail" class="contact-form" novalidate="novalidate">
+                <form action="mail/mail" class="contact-form1" novalidate="novalidate" method="post">
                     <p><input type="text" name="name" placeholder="Имя"></p>
                     <p><input type="text" name="email" placeholder="Email"></p>
                     <p><input type="text" name="phone" placeholder="Телефон"></p>
@@ -38,6 +38,7 @@
                         </div>
                     <?php endif; ?>
                 </form>
+                <?php if (isset($_SESSION['form_data'])) unset($_SESSION['form_data']); ?>
             </div>
         </div>
     </div>

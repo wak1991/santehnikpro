@@ -9,7 +9,7 @@ class MailController extends AppController
 {
     public function mailAction()
     {
-        if (!empty($_POST)){
+        if (!empty($_POST['name'])){
             $mail = new Mail();
             $data = $_POST;
             $mail->load($data);
@@ -23,7 +23,7 @@ class MailController extends AppController
                     $_SESSION['mail']['error'] = 'Ошибка';
                 }
             }
-//            redirect();
         }
+        redirect();
     }
 }
