@@ -2,7 +2,7 @@
 tinyMCE.init ({
     mode : "exact",
     elements: "content_editor",
-    extended_valid_elements : "img[*],a[*],ul[*],li[*],i[*]",
+    extended_valid_elements : "img[*],a[*],ul[*],li[*],i[*],span[*]",
     plugins: [
         "advlist autolink link image lists charmap print preview hr anchor pagebreak",
         "searchreplace wordcount visualblocks visualchars insertdatetime media nonbreaking",
@@ -25,7 +25,7 @@ tinyMCE.init ({
         });
         return false;
     },
-    content_css : "/css/style.css",
+    content_css : "/css/style.css, /css/animate.css, /css/bootstrap.min.css, /css/font-awesome.min.css, /css/hover.css, /css/jquery.fancybox.css, /css/owl.carousel.css, /css/owl.theme.default.min.css, /css/responsive.css, /css/settings.css, /css/strocke-gap-icons-style.css",
 });
 <!-- /TinyMCE -->
 

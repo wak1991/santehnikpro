@@ -19,6 +19,9 @@
 <?php if($page->form):?>
 <section id="contact-content">
     <div class="container">
+        <div class="section-title">
+            <h1><?=$page->title;?></h1>
+        </div>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                 <form action="mail/mail" class="contact-form1" novalidate="novalidate" method="post">
@@ -39,6 +42,7 @@
                     <?php endif; ?>
                 </form>
                 <?php if (isset($_SESSION['form_data'])) unset($_SESSION['form_data']); ?>
+                <?=$page->text;?>
             </div>
         </div>
     </div>

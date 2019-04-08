@@ -16,6 +16,7 @@ class Page extends AppModel
         'url' => '',
         'sort' => '',
         'form' => '',
+        'text' => '',
     ];
 
     public $rules = [
