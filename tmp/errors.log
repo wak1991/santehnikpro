@@ -2686,3 +2686,9 @@
 =====================
 [2019-04-03 10:00:42] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
 =====================
+[2019-04-08 12:08:10] Текст ошибки: Expected array, string given. | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Строка: 62
+=====================
+[2019-04-08 12:08:55] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sort  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-04-08 12:08:56] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY sort  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================

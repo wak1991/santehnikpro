@@ -17,7 +17,7 @@ class PageController extends AppController
         // хлебные крошки
         $bredcrumbs = Breadcrumbs::getBreadcrumbs();
 
-        $this->setMeta($page->title, 'Описание', 'Ключевики');
+        $this->setMeta($page->title, $page->description, $page->keywords);
         $this->set(compact('page'));
     }
 
