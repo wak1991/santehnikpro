@@ -50,6 +50,7 @@ class Menu
             if ($this->cache){
                 $cache->set($this->cacheKey, $this->menuHtml, $this->cache);
             }
+            debug($this->tree);
         }
         $this->output();
     }

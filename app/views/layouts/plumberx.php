@@ -59,7 +59,6 @@
                         'table' => 'pages',
                         'tpl' => WWW . '/menu/header.php',
                     ]); ?>
-
             </nav>
         </div>
     </div>
