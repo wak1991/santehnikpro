@@ -2696,3 +2696,7 @@
 =====================
 [2019-04-10 10:53:36] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
 =====================
+[2019-04-11 15:55:34] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================
+[2019-04-11 15:55:51] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+=====================

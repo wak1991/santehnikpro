@@ -13,12 +13,13 @@ class PageController extends AppController
         if (!$page){
             throw new \Exception('Страница не найдена', 404);
         }
-
+        $pages = \R::find('pages', 'WHERE parent_id = ' . $page['parent_id']);
+        $pages_name = \R::findOne('pages', 'id = ?', [$page['parent_id']]);
         // хлебные крошки
         $bredcrumbs = Breadcrumbs::getBreadcrumbs();
 
         $this->setMeta($page->title, $page->description, $page->keywords);
-        $this->set(compact('page'));
+        $this->set(compact('page', 'pages', 'pages_name'));
     }
 
 }
