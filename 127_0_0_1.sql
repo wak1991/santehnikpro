@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 02 2019 г., 14:05
+-- Время создания: Апр 12 2019 г., 16:17
 -- Версия сервера: 5.6.37
--- Версия PHP: 5.6.31
+-- Версия PHP: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -74,7 +74,10 @@ INSERT INTO `constants` (`id`, `name`, `description`, `value`, `sort`) VALUES
 (1, 'social', 'Соц. сети', '                <ul>\r\n                    <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>\r\n                    <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>\r\n                </ul>', 0),
 (2, 'contact_info', 'Контактная информация', '<ul>\r\n<li><a href=\"tel:+375444540444\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-phone\"></i>+375 (44) 454-04-44</a></li>\r\n<li><a href=\"mailto:santehkostya@mail.ru\" class=\"hvr-bounce-to-bottom\"><i class=\"fa fa-envelope-o\"></i>santehkostya@mail.ru</a></li>\r\n</ul>', 0),
 (3, 'text_slider', 'Текст под слайдером', '<p>We\'re on call 24/7 to react promptly to your <b>plumbing emergencies.</b></p>', 0),
-(4, 'our_proects', 'Наши проекты', '<div class=\"section-title\">\r\n<h1>Выполненые работы</h1>\r\n</div>\r\n<div class=\"row\">\r\n<div class=\"col-lg-12 col-md-12 masonary-gallery\">\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/1.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/2.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1 height-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/3.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/4.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-2\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/5.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/6.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\nPipe Leakages Fixed</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"view-all-btn\"><a href=\"project-v1.html\" class=\"view-all hvr-bounce-to-right\">посмотреть все</a></div>', 0);
+(4, 'our_proects', 'Наши проекты', '<div class=\"section-title\">\r\n<h1>Выполненые работы</h1>\r\n</div>\r\n<div class=\"row\">\r\n<div class=\"col-lg-12 col-md-12 masonary-gallery\">\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/1.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\n<span>Pipe Leakages Fixed</span></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/2.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\n<span>Pipe Leakages Fixed</span></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1 height-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/3.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\n<span>Pipe Leakages Fixed</span></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/4.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\n<span>Pipe Leakages Fixed</span></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-2\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/5.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\n<span>Pipe Leakages Fixed</span></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"masonary-item width-1\">\r\n<div class=\"img-wrap\"><img src=\"img/our-projects/6.jpg\" alt=\"\" />\r\n<div class=\"content-wrap\">\r\n<div class=\"border\">\r\n<div class=\"content\">\r\n<h4>Kitchken Maintance</h4>\r\n<span>Pipe Leakages Fixed</span></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>', 0),
+(5, 'title_home', 'Тайтл главной страницы', '<p>Это главная страница! Тут будет текст тайтла</p>', 0),
+(6, 'desc_home', 'Description главной страницы', '<p>Тут будет описание</p>', 0),
+(7, 'keywords_home', 'Ключевики главной страницы', '<p>главная, сантехника, ещё ключи</p>', 0);
 
 -- --------------------------------------------------------
 
@@ -115,7 +118,7 @@ CREATE TABLE `pages` (
 
 INSERT INTO `pages` (`id`, `title`, `keywords`, `description`, `alias`, `parent_id`, `text`, `url`, `sort`, `form`) VALUES
 (1, 'О компании', '', '', 'o-kompanii', 0, '<p>Какой-то текст о компании</p>', '', 10, '0'),
-(2, 'Контакты', '', '', 'kontakty', 0, 'Какой-то текст о контактах', '', 10, '1'),
+(2, 'Контакты', '', '', 'kontakty', 0, '<p>Какой-то текст о контактахfff</p>', '', 10, '1'),
 (3, 'Услуги', '', '', 'uslugi', 0, 'Какой-то текст об услугах', '', 10, '0'),
 (4, 'Водопровод', '', '', 'vodoprovod', 0, 'Какой-то текст о водопроводе', '', 10, '0'),
 (5, 'Сантехника', '', '', 'santehnika', 3, 'Какой-то текст о сантехнике', '', 10, '0'),
@@ -309,12 +312,12 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT для таблицы `constants`
 --
 ALTER TABLE `constants`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT для таблицы `mails`
 --
 ALTER TABLE `mails`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT для таблицы `pages`
 --
