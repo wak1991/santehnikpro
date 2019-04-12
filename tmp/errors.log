@@ -2710,3 +2710,49 @@
 =====================
 [2019-04-12 09:15:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
 =====================
+[2019-04-12 09:22:06] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:22:06] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:22:06] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:22:06] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:22:06] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:22:06] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:25:28] Текст ошибки: Call to undefined method app\widgets\constants\Constants::class() | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 15
+=====================
+[2019-04-12 09:25:51] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:25:51] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:25:51] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:25:51] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:25:51] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:25:51] Текст ошибки: Контроллер app\controllers\admin\LteController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 09:39:42] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 16
+=====================
+[2019-04-12 09:40:32] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 16
+=====================
+[2019-04-12 09:40:34] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 16
+=====================
+[2019-04-12 09:40:35] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 16
+=====================
+[2019-04-12 09:41:19] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 16
+=====================
+[2019-04-12 09:42:22] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 16
+=====================
+[2019-04-12 10:06:34] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 16
+=====================
+[2019-04-12 10:09:21] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 17
+=====================
+[2019-04-12 10:09:23] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 17
+=====================
+[2019-04-12 10:09:50] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 17
+=====================
