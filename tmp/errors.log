@@ -2700,3 +2700,7 @@
 =====================
 [2019-04-11 15:55:51] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1   -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\santehnikpro\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
 =====================
+[2019-04-12 08:54:47] Текст ошибки: Контроллер app\controllers\KontaktyController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-12 08:55:10] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================

@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-push-0 col-md-push-0 col-sm-push-3 col-xs-push-0 sidebar">
                     <div class="sidebar-widget">
-                    <h4><?=$pages_name['title']; ?></h4>
+                        <h4><?=$pages_name['title'] ?  $pages_name['title'] : 'Меню';?></h4>
                         <ul class="category-list">
                         <?php foreach ($pages as $page):?>
                             <li><a href="page/<?=$page['alias'];?>"><i class="fa fa-angle-right"></i> <?=$page['title'];?></a></li>
