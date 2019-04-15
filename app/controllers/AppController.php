@@ -14,18 +14,18 @@ class AppController extends Controller
     {
         parent::__construct($route);
         new AppModel();
-//        App::$app->setProperty('cats', self::cacheCategory());
+        App::$app->setProperty('pages', self::cachePages());
     }
 
-/*   public static function cacheCategory()
+   public static function cachePages()
     {
         $cache = Cache::instance();
-        $cats = $cache->get('cats');
-        if (!$cats){
-            $cats = \R::getAssoc("SELECT * FROM category");
-            $cache->set('cats', $cats);
+        $pages = $cache->get('pages');
+        if (!$pages){
+            $pages = \R::getAssoc("SELECT * FROM pages");
+            $cache->set('pages', $pages);
         }
-        return $cats;
-    }*/
+        return $pages;
+    }
 
 }

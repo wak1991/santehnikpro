@@ -2756,3 +2756,13 @@
 =====================
 [2019-04-12 10:09:50] Текст ошибки: Cannot use object of type app\widgets\constants\Constants as array | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\MainController.php | Строка: 17
 =====================
+[2019-04-15 09:16:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-04-15 09:47:28] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 09:48:32] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 09:48:33] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 11:29:18] Текст ошибки: Call to undefined function debg() | Файл: C:\OSPanel\domains\santehnikpro\app\views\Page\view.php | Строка: 60
+=====================

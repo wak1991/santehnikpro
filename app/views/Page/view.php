@@ -9,8 +9,8 @@
                 </div> <!-- /.title -->
                 <!-- .page-breadcumb -->
                 <div class="page-breadcumb pull-right">
-                    <i class="fa fa-home"></i> <a href="<?=PATH;?>">Главная</a> <i class="fa fa-angle-right"></i> <span><?=$page->title;?></span>
-                </div> <!-- /.page-breadcumb -->
+                <?=$breadcrumbs;?>
+                </div>
             </div>
         </div>
     </div>

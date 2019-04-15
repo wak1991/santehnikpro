@@ -16,10 +16,10 @@ class PageController extends AppController
         $pages = \R::find('pages', 'WHERE parent_id = ' . $page['parent_id']);
         $pages_name = \R::findOne('pages', 'id = ?', [$page['parent_id']]);
         // хлебные крошки
-        $bredcrumbs = Breadcrumbs::getBreadcrumbs();
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($page->parent_id, $page->title);
 
         $this->setMeta($page->title, $page->description, $page->keywords);
-        $this->set(compact('page', 'pages', 'pages_name'));
+        $this->set(compact('page', 'pages', 'pages_name', 'breadcrumbs'));
     }
 
 }

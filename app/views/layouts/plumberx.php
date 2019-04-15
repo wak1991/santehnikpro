@@ -53,7 +53,10 @@
                 </a>
             </div>
             <nav class="col-lg-9 col-md-12 col-lg-pull-0 col-md-pull-1 mainmenu-container">
-                    <?php new \app\widgets\menu\Menu([
+                <button class="mainmenu-toggler">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <?php new \app\widgets\menu\Menu([
                         'cacheKey' => 'header',
                         'class' => 'mainmenu pull-right',
                         'table' => 'pages',
