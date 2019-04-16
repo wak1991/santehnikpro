@@ -79,7 +79,7 @@
                 <img class="wow bounceInLeft" src="img/emergency/man.png" alt="">
             </div>
             <div class="col-lg-offset-3 col-lg-9">
-                <h2>Аварийная утечка &amp; <span>Лопнула труба</span></h2>					<p>Звоните нам и мы оперативно решим вашу сантехнику <b>в любое для вас время.</b></p>					<p class="phone-contact"><b>+375 (44) 454-04-44</b> или <a href="?view=contact" class="hvr-bounce-to-right">Контакты</a></p>
+                <h2>Аварийная утечка &amp; <span>Лопнула труба</span></h2>					<p>Звоните нам и мы оперативно решим вашу сантехнику <b>в любое для вас время.</b></p>					<p class="phone-contact"><b>+375 (44) 454-04-44</b> или <a href="kontakty" class="hvr-bounce-to-right">Контакты</a></p>
             </div>
         </div>
     </div>
