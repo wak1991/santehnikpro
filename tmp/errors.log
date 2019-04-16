@@ -2766,3 +2766,179 @@
 =====================
 [2019-04-15 11:29:18] Текст ошибки: Call to undefined function debg() | Файл: C:\OSPanel\domains\santehnikpro\app\views\Page\view.php | Строка: 60
 =====================
+[2019-04-15 11:58:39] Текст ошибки: Метод app\controllers\PageController::kranyAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 11:58:49] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 11:58:53] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 11:59:05] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 11:59:13] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 11:59:14] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 11:59:14] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 11:59:15] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 11:59:15] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 11:59:19] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 11:59:27] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 11:59:29] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 11:59:44] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:02:29] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:02:37] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:15:49] Текст ошибки: Метод app\controllers\PageController::viewsAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:16:47] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:16:51] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:16:58] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:17:11] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:17:11] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:17:12] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:17:12] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:17:12] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:17:56] Текст ошибки: Метод app\controllers\PageController::kontaktyAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:18:04] Текст ошибки: Метод app\controllers\PageController::uslugiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:18:18] Текст ошибки: Метод app\controllers\PageController::kranyAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:18:53] Текст ошибки: Метод app\controllers\PageController::vannyAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:20:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:21:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:22:27] Текст ошибки: Метод app\controllers\PageController::vodoprovodAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:22:31] Текст ошибки: Контроллер app\controllers\VodoprovodController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:23:54] Текст ошибки: Контроллер app\controllers\VodoprovodController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:24:13] Текст ошибки: Контроллер app\controllers\VodoprovodController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:26:02] Текст ошибки: Метод app\controllers\PageController::vodoprovodAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:26:05] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:26:09] Текст ошибки: Метод app\controllers\PageController::vodoprovodAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:26:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:26:25] Текст ошибки: Метод app\controllers\PageController::ugolkiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:26:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:26:56] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:26:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:26:58] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:28:58] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:28:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:11] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:29:18] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-15 12:30:00] Текст ошибки: Контроллер app\controllers\UgolkiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:30:12] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-15 12:30:15] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-15 12:31:31] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-16 09:01:23] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-16 09:01:28] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-16 09:01:46] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:18] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:18] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:02:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:03:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:03:36] Текст ошибки: Too few arguments to function app\models\Breadcrumbs::getBreadcrumbs(), 0 passed in C:\OSPanel\domains\santehnikpro\app\controllers\CategoryController.php on line 25 and at least 1 expected | Файл: C:\OSPanel\domains\santehnikpro\app\models\Breadcrumbs.php | Строка: 10
+=====================
+[2019-04-16 09:03:37] Текст ошибки: Too few arguments to function app\models\Breadcrumbs::getBreadcrumbs(), 0 passed in C:\OSPanel\domains\santehnikpro\app\controllers\CategoryController.php on line 25 and at least 1 expected | Файл: C:\OSPanel\domains\santehnikpro\app\models\Breadcrumbs.php | Строка: 10
+=====================
+[2019-04-16 09:04:33] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-16 09:04:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:05:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================
+[2019-04-16 09:05:32] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-16 09:06:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\CategoryController.php | Строка: 21
+=====================
+[2019-04-16 09:06:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\CategoryController.php | Строка: 21
+=====================
+[2019-04-16 09:07:15] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-16 09:08:09] Текст ошибки: Контроллер app\controllers\OKompaniiController не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2019-04-16 09:08:31] Текст ошибки: Метод app\controllers\PageController::oKompaniiAction не найден | Файл: C:\OSPanel\domains\santehnikpro\vendor\ishop\core\Router.php | Строка: 38
+=====================
+[2019-04-16 09:08:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\santehnikpro\app\controllers\PageController.php | Строка: 14
+=====================

@@ -22,7 +22,7 @@ class CategoryController extends AppController
         }
 
         // хлебные крошки
-        $bredcrumbs = Breadcrumbs::getBreadcrumbs();
+//        $bredcrumbs = Breadcrumbs::getBreadcrumbs();
 
         $this->setMeta($category->title, 'Описание', 'Ключевики');
         $this->set(compact('category'));

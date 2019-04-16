@@ -63,7 +63,7 @@
                         <h4><?=$pages_name['title'] ?  $pages_name['title'] : 'Меню';?></h4>
                         <ul class="category-list">
                         <?php foreach ($pages as $page):?>
-                            <li><a href="<?=$page['url'] ? $page['url'] : "page/".$page['alias'];?>"><i class="fa fa-angle-right"></i> <?=$page['title'];?></a></li>
+                            <li><a href="<?=$page['url'] ? $page['url'] : "/".$page['alias'];?>"><i class="fa fa-angle-right"></i> <?=$page['title'];?></a></li>
                         <?php endforeach; ?>
                         </ul>
                     </div>

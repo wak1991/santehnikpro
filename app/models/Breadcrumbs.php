@@ -14,7 +14,7 @@ class Breadcrumbs
         $breadcrumbs = "<i class='fa fa-home'></i> <a href='" . PATH . "'>Главная</a>";
         if ($breadcrumbs_array){
             foreach ($breadcrumbs_array as $alias => $title){
-                $breadcrumbs .= "<i class='fa fa-angle-right'></i> <span><a href='" . PATH . "/page/{$alias}'>{$title}</span></a>";
+                $breadcrumbs .= "<i class='fa fa-angle-right'></i> <span><a href='" . PATH . "/{$alias}'>{$title}</span></a>";
             }
         }
         if ($name){
