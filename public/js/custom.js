@@ -358,7 +358,7 @@
 						required: true
 					}
 				},
-				submitHandler: function (form) { 
+				/*submitHandler: function (form) {
 					// sending value with ajax request
 					$.post($(form).attr('action'), $(form).serialize(), function (response) {
 						$(form).parent('div').append(response);
@@ -367,7 +367,7 @@
 						$(form).find('textarea').val('');
 					});
 					return false;
-				}
+				}*/
 			});
 		}
 	}

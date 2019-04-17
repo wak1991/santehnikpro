@@ -13,6 +13,7 @@ class MailController extends AppController
             $mail = new Mail();
             $data = $_POST;
             $mail->load($data);
+            $mail->h($data);
             if (!$mail->validate($data)){
                 $mail->getErrors();
                 $_SESSION['form_data'] = $data;

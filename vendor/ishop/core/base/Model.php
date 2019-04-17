@@ -27,6 +27,15 @@ abstract class Model
         }
     }
 
+    public function h($data)
+    {
+        foreach ($this->attributes as $name => $value){
+            if (isset($data[$name])){
+                $this->attributes[$name] = htmlspecialchars($data[$name]);
+            }
+        }
+    }
+
     public function save($table, $valid = true)
     {
         if ($valid){
