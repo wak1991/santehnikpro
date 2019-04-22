@@ -20,6 +20,7 @@ class MailController extends AppController
             }else{
                 if ($mail->save('mails')){
                     $_SESSION['mail']['success'] = 'Письмо отправлено';
+                    Mail::mail($_POST['email']);
                 }else{
                     $_SESSION['mail']['error'] = 'Ошибка';
                 }
