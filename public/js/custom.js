@@ -129,7 +129,7 @@
 				soloArrowRightVOffset:0,
 
 
-				touchenabled:"on",
+				touchenabled:"off",
 				swipe_velocity:"0.7",
 				swipe_max_touches:"1",
 				swipe_min_touches:"1",
